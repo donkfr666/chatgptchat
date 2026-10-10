@@ -1,0 +1,2913 @@
+﻿ANVIL STATIC ANALYSIS REPORT
+Generated: 2026-10-10T17:06:57.8004886+02:00
+Root: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup
+NOTE: Files are inspected as data, not executed.
+
+========== WINDOWS / DEFENDER STATUS ==========
+
+
+AMServiceEnabled              : False
+AntivirusEnabled              : False
+RealTimeProtectionEnabled     : False
+AntivirusSignatureVersion     : 
+AntivirusSignatureLastUpdated : 
+
+
+
+
+========== FILE INVENTORY ==========
+Total files: 51
+Total bytes: 323982561
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\Anvil Setup.exe
+Size: 3264896 bytes
+Created: 2026-10-10T17:04:25.1653774+02:00
+Modified: 2026-10-09T22:58:28.0000000+02:00
+Extension: .exe
+Attributes: Normal
+SHA256: 85CCA5EDE7B0B25B4DDAAD52B73982D1393FD788141B4BFE0844623524850170
+Signature status: UnknownError
+Signer: CN=Ember Circuit, O=Ember Circuit, C=US
+Certificate issuer: CN=Ember Circuit, O=Ember Circuit, C=US
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+PE architecture: x64
+PE format: PE32+
+PE sections: 8
+String indicator matches: 46
+  STRING:  max=scav  ptr ] = (usageinit  ms, fault tab= top=[...], fp:sse41sse42ssse3dryingsealedV88dtUobjectstringStringFormat[]byte390625listensocketuint16uint32uint64structchan<-<-chan ValueCommonGetACPsysmontimersefenceselect, not  next= jobs= goid sweep  B -> % util alloc free  span= prev= list=, i =  code= addr= m->p= p->m=SCHED  curg= ctxt: min=  max= bad ts(...)
+  STRING:  runqueue= stopwait= runqsize= gfreecnt= throwing= spinning=atomicand8float64nanfloat32nanException  ptrSize=  targetpc= until pc=unknown pcruntime: ggoroutine execerrdothttp2debugcrypto/tlsTlsGetValueTlsSetValueunreachableMarshalJSONMarshalText/dev/stdout/dev/stderrOpenProcessGetFileType30517578125broken pipebad messagefile existsbad addressRegCloseKeyCloseHandleCreateFileWDeleteFileWExitProcessFreeLibrarySetFileTimeVirtualLockWSARecvFromclosesocketgetpeernamegetsocknamecrypt32.dllmswsock.dllsecur32.dllshell32.dlluserenv.dllbad argSizemethodargs(short writeProcessPrngMoveFileExWNetShareAddNetShareDelassistQueuenetpollInitreflectOffsglobalAllocmSpanManualstart traceclobberfreegccheckmarkscheddetailunspecifiedcgocall nil s.nelems=   of size  runtime: p  ms clock,  nBSSRoots=runtime: P  exp.) for minTrigger=GOMEMLIMIT=bad m value, elemsize= freeindex= span.list=, npages =  p->status= in status  idleprocs= gcwaiting= schedtick= timerslen= mallocing=bad timedivfloat64nan1float64nan2float64nan3float32nan2GOTRACEBACK) at entry+ (targetpc= , plugin: runtime: g : frame.sp=created by i/o timeoutgocachehashgocachetesthttp2clienthttp2serverarchive/tartls10servercrypto/x509archive/zipkernel32.dllVirtualAllocadvapi32.dllGetUserNameA152587890625762939453125invalid slothost is downillegal seekGetLengthSidGetLastErrorGetStdHandleGetTempPathWLoadLibraryWReadConsoleWSetEndOfFileTransmitFileGetAddrInfoWiphlpapi.dllnetapi32.dllOpenServiceWRevertToSelfCreateEventWGetConsoleCPUnlockFileExVirtualQuerysweepWaiterstraceStringsspanSetSpinemspanSpecialtraceTypeTabgcBitsArenasmheapSpecialgcpacertraceharddecommitmadvdontneeddumping heapchan receivelfstack.push span.limit= span.state=bad flushGen MB stacks, worker mode  nDataRoots= nSpanRoots= wbuf1=<nil> wbuf2=<nil> gcscandone runtime: gp= found at *( s.elemsize= B (???goal , cons/mark  maxTrigger= pages/byte
+  STRING: , locked to threadruntime.semacreateruntime.semawakeupuse of closed filex509negativeserialGetCurrentProcessIdRtlAddFunctionTableencode snapshot: %wreflect.Value.IsNilreflect.Value.Floatafter array element too large for IPv4 too large for IPv6WaitForSingleObject14901161193847656257450580596923828125bad file descriptordisk quota exceededtoo many open filesdevice not a streamdirectory not emptyCryptReleaseContextGetTokenInformationCreateSymbolicLinkWreflect.Value.Bytesreflect.Value.Fieldreflect.Value.IndexSetTokenInformationMultiByteToWideCharGC mark terminationwait for debug callpanicwrap: no ( in panicwrap: no ) in  called using nil *unknown wait reasonnotesleep not on g0GC work not flushed/gc/scan/heap:bytes/gc/heap/goal:bytes/gc/heap/live:bytesbad kind in runfinqmarkroot: bad indexnwait > work.nprocs, gp->atomicstatus=marking free object KiB work (eager),  [controller reset]mspan.sweep: state=sysMemStat overflowbad sequence numberntdll.dll not foundwinmm.dll not foundruntime: g0 stack [panic during mallocpanic holding locksmissing deferreturnunexpected gp.parampanic during panic
+  STRING: , size = bad prune, tail = recover:  not in [ctxt != 0, oldval=, newval= threads=: status= blocked= lockedg=atomicor8 runtime= m->curg=(unknown)traceback} stack=[ gp.goid= lockedm=pclmulqdqmath/randtlsrsakex for type ParseAddr(invalid IPwinsymlink/dev/stdin12207031256103515625owner diedDnsQuery_WGetIfEntryCancelIoExCreatePipeGetVersionWSACleanupWSAStartupgetsockoptsetsockoptdnsapi.dllws2_32.dllcomplex128t.Kind == LockFileExWSASocketWnotifyListprofInsertstackLargeNot workermSpanInUseGOMAXPROCSstop tracedisablethpinvalidptrschedtracesemacquiredebug call flushGen  MB goal, s.state =  s.base()= heapGoal=GOMEMLIMIT KiB now,  pages at  sweepgen= sweepgen , bound = , limit = exitThreadBad varintGC forced
+  STRING: ???pc=  Gadxaesshaavxfmanetnullbooltruejson'\''filesyncpipe3125Atoi-Inf+Infbindint8uintchanfunccallkind on allgallprootitabsbrkidledead is LEAFbase of ) =  <==GOGC] =  pc=: p=cas1cas2cas3cas4cas5cas6 at 
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: aeshashbody
+  STRING: bindm in unexpected GOOSruntime: mp.lockedInt = runqsteal: runq overflowdouble traceGCSweepStartbad use of trace.seqlockinvalid pattern syntax:  distance above minimum: unknown journal operationinvalid snapshot positionjson: unsupported value: IPv4 field has value >2552910383045673370361328125resource deadlock avoidedoperation now in progressno buffer space availableno such device or addresssocket type not supportedinvalid cross-device linkGetFinalPathNameByHandleWGetQueuedCompletionStatusUpdateProcThreadAttributegoroutine profile cleanupchansend: spurious wakeupruntime??lock: lock countbad system huge page sizearena already initialized to unused region of span bytes failed with errno=runtime: VirtualAlloc of /sched/gomaxprocs:threadsremaining pointer buffersslice bounds out of range_cgo_thread_start missingallgadd: bad status Gidleruntime: program exceeds startm: p has runnable gsstoplockedm: not runnablereleasep: invalid p statecheckdead: no p for timercheckdead: no m for timerunknown sigtramp callbackunexpected fault address missing stack in newstackbad status in shrinkstackmissing traceGCSweepStartinconsistent poll.fdMutexGODEBUG: can not enable "ExpandEnvironmentStringsWfloor address must be IPv4encountered a cycle via %sGetFileInformationByHandle1455191522836685180664062572759576141834259033203125invalid request descriptorno CSI structure availablerequired key not availableno message of desired typename not unique on networkCertFreeCertificateContextPostQueuedCompletionStatusunknown ABI parameter kindSetFileInformationByHandleall goroutines stack traceGC background sweeper waitcall from unknown functionnotewakeup - double wakeuppersistentalloc: size == 0/gc/cycles/total:gc-cyclesnegative idle mark workersuse of invalid sweepLockerruntime: bad span s.state=forEachP: P did not run fnwakep: negative nmspinningstartlockedm: locked to meinittask with no functionscorrupted semaphore ticketout of memory (stackalloc)shrinking stack in libcallruntime: pcHeader: magic= traceRegion: out of memoryPell parameter out of rangeafter object key:value pairIPv6 field has value >=2^16363797880709171295166015625channel number out of rangecommunication error on sendkey was rejected by servicenot a XENIX named type fileCertEnumCertificatesInStorereflect.Value.UnsafePointerPageCachePagesLeaked (test)makechan: size out of rangeG waiting list is corruptedruntime??unlock: lock countprogToPointerMask: overflow/gc/cycles/forced:gc-cycles/memory/classes/other:bytes/memory/classes/total:bytesfailed to set sweep barrierwork.nwait was > work.nproc not in stack roots range [allocated pages below zero?address not a stack addressmspan.sweep: bad span stateinvalid profile bucket typeruntime: corrupted polldescruntime: netpollinit failedruntime: asyncPreemptStack=runtime: thread ID overflowstopTheWorld: holding locksgcstopm: not waiting for gcruntime: checkdead: nmidle=runtime: checkdead: find g runlock of unlocked rwmutexsigsend: inconsistent statemakeslice: len out of rangemakeslice: cap out of rangegrowslice: len out of rangestack size not a power of 2too many callback functionstimer when must be positive: unexpected return pc for abi.NewName: tag too long: httpservecontentkeepheadersjournal is not chronologicalinvalid floor arena position!#$%&()*+-./:;<=>?@[]^_{|}~ unexpected end of JSON inputGetFileInformationByHandleEx18189894035458564758300781259094947017729282379150390625file descriptor in bad statedestination address requiredprotocol driver not attachedCertCreateCertificateContextGC mark assist wait for workcomparing uncomparable type runtime: bad lfnode address region exceeds uintptr range/gc/heap/frees-by-size:bytes/gc/heap/tiny/allocs:objects/sched/goroutines:goroutinesgcBgMarkWorker: mode not setmspan.sweep: m is not lockedfound pointer to free objectmheap.freeSpanLocked - span runtime.semasleep unexpectedfatal: morestack on gsignal
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: internal error: polling on unsupported descriptor typeeach colon-separated field must have at least one digitreflect: internal error: invalid use of makeMethodValuemheap.freeSpanLocked - invalid free of user arena chunkcasfrom_Gscanstatus:top gp->status is not in scan state is currently not supported for use in system callbacksptrEncoder.encode should have emptied ptrSeen via defersnon-empty pointer map passed for non-pointer-size valuesfailed to allocate aligned heap memory; too many retriesprofilealloc called without a P or outside bootstrappingin gcMark expecting to see gcphase as _GCmarkterminationruntime: NtAssociateWaitCompletionPacket failed; errno= sync: WaitGroup misuse: Add called concurrently with Waitruntime: checkmarks found unexpected unmarked object obj=reflect: reflect.Value.Elem on an invalid notinheap pointersync: WaitGroup is reused before previous Wait has returnedtried to trace goroutine with invalid or unsupported statusreflect: call of reflect.Value.Len on ptr to non-array Valuemanual span allocation called with non-manually-managed typeaddr range base and limit are not in the same memory segmentruntime: netpoll: PostQueuedCompletionStatus failed (errno= runtime: malformed profBuf buffer - tag and data out of syncabiRegArgsType needs GC Prog, update methodValueCallFrameObjsreflect: reflect.Value.Pointer on an invalid notinheap pointerfound bad pointer in Go heap (incorrect use of unsafe or cgo?)limiterEvent.stop: found wrong event in p's limiter event slotruntime: internal error: misuse of lockOSThread/unlockOSThreadmalformed GOMEMLIMIT; see `go doc runtime/debug.SetMemoryLimit`ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_runtime.SetFinalizer: first argument was allocated into an arenacompileCallback: expected function with one uintptr-sized resultattempted to trace stack of a goroutine this thread does not ownuser arena chunk size is not a multiple of the physical page sizeruntime: function marked with #cgo nocallback called back into Goruntime.SetFinalizer: pointer not at beginning of allocated blockembedded IPv4 address must replace the final 2 fields of the addressreflect: reflect.Value.UnsafePointer on an invalid notinheap pointertoo many hex fields to fit an embedded IPv4 at the end of the addressinternal/concurrent.HashMapTrie: ran out of hash bits while iteratinginternal/concurrent.HashMapTrie: ran out of hash bits while insertingruntime.Pinner: found leaking pinned pointer; forgot to call Unpin()?runtime: GetQueuedCompletionStatusEx returned net_op with invalid key= too many concurrent operations on a single file or socket (max 1048575)runtime: GetQueuedCompletionStatusEx returned net_op with invalid mode= MapIter.Next called on an iterator that does not have an associated map ValueNtCreateWaitCompletionPacket exists but NtCancelWaitCompletionPacket does notcannot convert slice with length %y to array or pointer to array with length %xNtCreateWaitCompletionPacket exists but NtAssociateWaitCompletionPacket does notreflect.Value.Interface: cannot return value obtained from unexported field or methodcgocheck > 1 mode is no longer supported at runtime. Use GOEXPERIMENT=cgocheck2 at build time instead.00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899at 0 do add north 192.0.2.10 2
+  STRING: internal/poll.logInitFD
+  STRING: internal/syscall/windows.procWSASocketW
+  STRING: internal/syscall/windows.SupportUnixSocket
+  STRING: internal/syscall/windows.WSASocket
+  STRING: LoadLibraryExW
+  STRING: LoadLibraryW
+  STRING: morebuf={pc:: no frame (sp=runtime: frame ts set in timertraceback stuckjstmpllitinterptarinsecurepathx509keypairleafx509usepolicieszipinsecurepathRegCreateKeyExWRegDeleteValueWGetCurrentThreadinvalid add line0123456789abcdefafter object keyTerminateProcess23841857910156250123456789ABCDEFinvalid exchangeno route to hostinvalid argumentmessage too longobject is remoteremote I/O errorSetFilePointerExOpenProcessTokenRegQueryInfoKeyWRegQueryValueExWDnsNameCompare_WCreateDirectoryWFlushFileBuffersGetComputerNameWGetFullPathNameWGetLongPathNameWRemoveDirectoryWNetApiBufferFreeDuplicateTokenExRtlVirtualUnwindinteger overflowgcshrinkstackofftracefpunwindoffGC scavenge waitGC worker (idle)page trace flush out of bounds [/gc/gogc:percent, not a functiongc: unswept span KiB work (bg),  mheap.sweepgen=runtime: nelems=workbuf is emptymSpanList.removemSpanList.insertbad special kindbad summary dataruntime: addr = runtime: base = runtime: head = timeBeginPeriod
+  STRING: pacer: assist ratio=workbuf is not emptybad use of bucket.mpbad use of bucket.bpruntime: double waitpreempt off reason: forcegc: phase errorgopark: bad g statusgo of nil func valuesemaRoot rotateRightreflect.makeFuncStubtrace: out of memorywirep: already in gohttplaxcontentlengthx509usefallbackrootsafter top-level valuein string escape codeunsupported operationreflect.Value.ComplexIPv4 address too long186264514923095703125931322574615478515625link has been severedpackage not installedblock device requiredstate not recoverableread-only file systemstale NFS file handleReadDirectoryChangesWNetGetJoinInformation of unexported methodunexpected value stepreflect.Value.Pointerbad type in compare: AdjustTokenPrivilegesLookupPrivilegeValueWNetUserGetLocalGroupsGetProfilesDirectoryWnegative shift amountsystem goroutine waitconcurrent map writes/gc/heap/allocs:bytesruntime: work.nwait=  previous allocCount=, levelBits[level] = runtime: searchIdx = defer on system stackpanic on system stackasync stack too largestartm: m is spinningstartlockedm: m has pfindrunnable: wrong ppreempt at unknown pcreleasep: invalid argcheckdead: runnable gruntime: newstack at runtime: newstack sp=runtime: confused by  pcHeader.textStart= timer data corruptioninvalid journal syntaxfloor drying cycle: %wIPv4 address too shortmultiple :: in address4656612873077392578125argument list too longaddress already in usenetwork is unreachablecannot allocate memoryprotocol not availableprotocol not supportedremote address changedConvertSidToStringSidWConvertStringSidToSidWCreateIoCompletionPortGetEnvironmentStringsWGetTimeZoneInformationunexpected method stepRtlLookupFunctionEntryCreateEnvironmentBlockWSAGetOverlappedResultinteger divide by zeroCountPagesInUse (test)ReadMetricsSlow (test)trace reader (blocked)trace goroutine statussend on closed channelcall not at safe pointgetenv before env initinterface conversion: freeIndex is not validoldoverflow is not nils.freeindex > s.nelemsbad sweepgen in refillspan has no free space/gc/scan/globals:bytes/gc/heap/frees:objectsruntime: work.nwait = runtime:scanstack: gp=scanstack - bad statusheadTailIndex overflowruntime.main not on m0set_crosscall2 missingbad g->status in readywirep: invalid p stateassembly checks failedstack not a power of 2minpc or maxpc invalidcompileCallback: type non-Go function at pc=exit hook invoked exitunexpected map key type<invalid reflect.Value>23283064365386962890625device or resource busyinterrupted system callno space left on deviceoperation not supportedoperation not permittedCertGetCertificateChainFreeEnvironmentStringsWGetEnvironmentVariableWGetSystemTimeAsFileTimeSetEnvironmentVariableWreflect.Value.Interfacereflect.Value.NumMethodbytes.Buffer: too largeDestroyEnvironmentBlockindex out of range [%x]ReadMemStatsSlow (test)runtimecontentionstackschan receive (nil chan)garbage collection scanmakechan: bad alignmentclose of closed channel) must be a power of 2
+  STRING: runtime.aeskeysched
+  STRING: runtime.initAlgAES
+  STRING: runtime.printBacklogIndex
+  STRING: runtime.startupRand
+  STRING: runtime.useAeshash
+  STRING: runtime: bad notifyList size - sync=accessed data from freed user arena runtime: wrong goroutine in newstackruntime: invalid pc-encoded table f=invalid pattern syntax (+ after -): each group must have 4 or less digits2220446049250313080847263336181640625cannot exec a shared library directlyvalue too large for defined data typereflect: NumField of non-struct type reflect: funcLayout of non-func type reflect.Value.Bytes of non-byte slicereflect.Value.Bytes of non-byte arraymethod ABI and value ABI do not alignruntime: allocation size out of range) is smaller than minimum page size (/cpu/classes/gc/mark/idle:cpu-secondssetprofilebucket: profile already setfailed to reserve page summary memoryruntime.minit: duplicatehandle failed_cgo_notify_runtime_init_done missingstartTheWorld: inconsistent mp->nextpruntime: unexpected SPWRITE function all goroutines are asleep - deadlock!internal error: unknown network type godebug: unexpected IncNonDefault of bisect.Hash: unexpected argument typeafter decimal point in numeric literalIPv4 field has octet with leading zero1110223024625156540423631668090820312555511151231257827021181583404541015625can not access a needed shared libraryindex out of range [%x] with length %ym changed unexpectedly in cgocallbackgmakechan: invalid channel element typeunreachable method called. linker bug?concurrent map iteration and map writegcBgMarkWorker: blackening not enabledcannot read stack of running goroutineruntime: blocked read on free polldescruntime: LoadLibraryExW failed; errno=runtime: GetProcAddress failed; errno=runtime: sudog with non-false isSelectarg size to reflect.call more than 1GBv could not fit in traceBytesPerNumberIPv4 field must have at least one digit277555756156289135105907917022705078125transport endpoint is already connectedmismatched count during itab table copyout of memory allocating heap arena map/cpu/classes/gc/mark/assist:cpu-seconds/cpu/classes/scavenge/total:cpu-seconds/memory/classes/profiling/buckets:bytesmspan.sweep: bad span state after sweepruntime: blocked write on free polldescPowerRegisterSuspendResumeNotification
+  STRING: sched={pc:, gp->status= pluginpath= : unknown pc  called from runtime: pid=gocacheverifyinstallgoroothtml/templatetlsmaxrsasizeRegDeleteKeyWRegEnumValueWGetProcessHeapGetTickCount64ActivateActCtxGetProcAddressempty to emptycheckpoint: %wVirtualProtectprefix length invalid Prefixinvalid syntax1907348632812595367431640625file too largeis a directorylevel 2 haltedlevel 3 haltedtoo many linksno such deviceprotocol errortext file busytoo many usersCryptGenRandomCertCloseStoreCreateProcessWFindFirstFileWFormatMessageWGetConsoleModeProcess32NextWSetFilePointerNetUserGetInfoGetUserNameExWTranslateNameWgetprotobyname procedure in winapi error #unsafe.Pointer on zero Valueunknown methodOpenSCManagerWModule32FirstWuserArenaStateGC (dedicated)read mem statsasynctimerchangcstoptheworldprofstackdepthtraceallocfreeGC assist waitfinalizer waitsync.Cond.Waits.allocCount= nil elem type! to finalizer GC worker initruntime: full=runtime: want=MB; allocated RtlGetVersion
+  STRING: SocketType
+  STRING: stopm spinning nmidlelocked= needspinning=randinit twicestore64 failedsemaRoot queuebad allocCountbad span statestack overflow untyped args  out of range no module data in goroutine runtime: seq1=runtime: goid=unreachable:  mime/multipartRegSetValueExWturn amount: %wduplicate floorGetProcessTimesDuplicateHandle476837158203125advertise errorkey has expirednetwork is downno medium foundno such processGetAdaptersInfoCreateHardLinkWDeviceIoControlFlushViewOfFileGetCommandLineWGetStartupInfoWProcess32FirstWUnmapViewOfFileFailed to load Failed to find invalid argSize<invalid Value>ImpersonateSelfOpenThreadTokenallocmRInternalGC (fractional)write heap dumpasyncpreemptoffforce gc (idle)sync.Mutex.Lockruntime.Goschedmalloc deadlockruntime error:   with GC prog
+  STRING: syscall._GetProcAddress
+  STRING: syscall._LoadLibrary
+  STRING: syscall.Closesocket
+  STRING: syscall.GetProcAddress
+  STRING: syscall.LoadLibrary
+  STRING: syscall.procclosesocket
+  STRING: syscall.procGetProcAddress
+  STRING: syscall.procLoadLibraryW
+  STRING: syscall.procWSAStartup
+  STRING: syscall.WSAStartup
+  STRING: timeBegin/EndPeriod not foundtried to unpin non-Go pointerruntime: sudog with non-nil centersyscall inconsistent bp entersyscall inconsistent sp gfput: bad status (not Gdead)semacquire not on the G stackruntime: split stack overflowstring concatenation too longinvalid function symbol tabletrace: reading after shutdownruntime: traceback stuck. pc=tried to trace dead goroutineruntime: impossible type kindruntime.semasleep wait_failedlooking for beginning of valuein exponent of numeric literaltrailing garbage after addresscalled entry on non-entry node227373675443232059478759765625socket operation on non-socketinappropriate ioctl for deviceprotocol wrong type for socketreflect: Elem of invalid type MapIter.Key called before Nextsync: inconsistent mutex statesync: unlock of unlocked mutexreflect: Len of non-array type runtime: cgocallback with sp=runtime: bad g in cgocallback
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\api-ms-win-core-console-l1-1-0.dll
+Size: 32840 bytes
+Created: 2026-10-10T17:04:23.2004494+02:00
+Modified: 2026-09-02T16:34:26.1759670+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 9E060BF6EE73936CF81D48ACD9A462A03382D94690AA9077AE1EBC13EA69B777
+Signature status: Valid
+Signer: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Windows® Operating System
+Description: ApiSet Stub DLL
+Company: Microsoft Corporation
+File version: 10.0.22621.3233 (WinBuild.160101.0800)
+Product version: 10.0.22621.3233
+PE architecture: x64
+PE format: PE32+
+PE sections: 3
+String indicator matches: 24
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: s?"? http://www.microsoft.com/windows0
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  STRING: X0V0T?R?P?Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\api-ms-win-core-console-l1-2-0.dll
+Size: 32848 bytes
+Created: 2026-10-10T17:04:23.2104961+02:00
+Modified: 2026-09-02T16:34:26.1759670+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 7565911BE414F93C3F219BA3A233C9D78A558AC8AE07C2D902E1BEA5C46345F9
+Signature status: Valid
+Signer: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Windows® Operating System
+Description: ApiSet Stub DLL
+Company: Microsoft Corporation
+File version: 10.0.22621.3233 (WinBuild.160101.0800)
+Product version: 10.0.22621.3233
+PE architecture: x64
+PE format: PE32+
+PE sections: 3
+String indicator matches: 24
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: s?"? http://www.microsoft.com/windows0
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  STRING: X0V0T?R?P?Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\api-ms-win-core-datetime-l1-1-0.dll
+Size: 32824 bytes
+Created: 2026-10-10T17:04:23.2131522+02:00
+Modified: 2026-09-02T16:34:26.1759670+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 69AAC8A486BE3A5C60743C2609373B2F3F6EE076EE6A5297A32CF093FCEB38A1
+Signature status: Valid
+Signer: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Windows® Operating System
+Description: ApiSet Stub DLL
+Company: Microsoft Corporation
+File version: 10.0.22621.3233 (WinBuild.160101.0800)
+Product version: 10.0.22621.3233
+PE architecture: x64
+PE format: PE32+
+PE sections: 3
+String indicator matches: 24
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: s?"? http://www.microsoft.com/windows0
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  STRING: X0V0T?R?P?Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\api-ms-win-core-debug-l1-1-0.dll
+Size: 32848 bytes
+Created: 2026-10-10T17:04:23.2142671+02:00
+Modified: 2026-09-02T16:34:26.1759670+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: AC4E35BF22AF9BA62FD003FBC63BD669B28810A8234D171C86D07FCD372A2B60
+Signature status: Valid
+Signer: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Windows® Operating System
+Description: ApiSet Stub DLL
+Company: Microsoft Corporation
+File version: 10.0.22621.3233 (WinBuild.160101.0800)
+Product version: 10.0.22621.3233
+PE architecture: x64
+PE format: PE32+
+PE sections: 3
+String indicator matches: 24
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: s?"? http://www.microsoft.com/windows0
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  STRING: X0V0T?R?P?Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\assetpreview.dll
+Size: 48901784 bytes
+Created: 2026-10-10T17:04:24.1209583+02:00
+Modified: 2026-08-25T22:44:54.8942717+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: B89DE5711397C071632CC6EE51604B8D225EB1CCA4FA6DEB1EBA3F2685242374
+Signature status: Valid
+Signer: CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US
+Certificate issuer: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+PE architecture: x64
+PE format: PE32+
+PE sections: 5
+String indicator matches: 141
+  STRING:  : Missing token (%d)...
+  STRING:  Copyright (C) 2016 and later: Unicode, Inc. and others. License & terms of use: http://www.unicode.org/copyright.html 
+  STRING: # https://curl.se/docs/http-cookies.html
+  STRING: # Netscape HTTP Cookie File
+  STRING: # Your alt-svc cache. https://curl.se/docs/alt-svc.html
+  STRING: # Your HSTS cache. https://curl.se/docs/hsts.html
+  STRING: %s cookie %s="%s" for domain %s, path %s, expire %lld
+  STRING: %s socket %qd connected: [%s:%d] -> [%s:%d]
+  STRING: .?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@
+  STRING: .?AV_CancellationTokenRegistration@details@Concurrency@@
+  STRING: ???????????????? Copyright (C) 2016 and later: Unicode, Inc. and others. License & terms of use: http://www.unicode.org/copyright.html 
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?AESCULAPIUSSCALESALEMBIC
+  STRING: ?CREAMDOUGHNUTCOOKIECHOCOLATE 
+  STRING: ?H{@FORTUNE COOKIETAKEOUT 
+  STRING: ?Make@CUtlStringToken@@SA?AV1@PEBD@Z
+  STRING: ?ParseToken@CUtlBuffer@@QEAA_NPEBD0PEADH@Z
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: [%s] ftp_state_use_port(), opened socket
+  STRING: [%s] ftp_state_use_port(), socket bound to port %d
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: <C MAESI/
+  STRING: <E NGGUAESHAE 
+  STRING: <no text for the token>
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 1:1: Tokens : ( T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | SCOPE_QUALIFIER | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
+  STRING: AcquireCredentialsHandle
+  STRING: Applies to skeletal animation only.<br><br>https://github.com/nfrechette/acl/blob/develop/docs/creating_a_skeleton.md<br><br>The virtual vertex distance is used by the error metric function. It will measure the error of a vertex at that particular distance from the bone in object space. This distance should be large enough to contain the vast majority of the visible vertices skinned on that particular bone. The algorithm ensures that all vertices contained up to this distance will have an error lower than the supplied error threshold in the CompressionSettings. It is generally sufficient for this value to be approximate and it is often safe to use the same value for every bone in humanoid characters. A value of 3cm (or ~1 inch in game units) is good enough for cinematographic quality for most characters. While visible vertices around the torso will often be further away than this, finger tips and facial bones will be closer than that. Because the compressed track data is stored in relative space of the parent bone, any error will accumulate down the hierarchy. This means that in order to keep the leaf bones within that accuracy threshold, all the parent bones in that chain will require even higher accuracy.
+  STRING: Applies to skeletal animation only.<br><br>See :: https://github.com/nfrechette/acl/blob/develop/docs/compressing_a_raw_clip.md<br><br>The last important setting to choose is the error_threshold. This is used in conjunction with the error metric and the virtual vertex distance from the skeleton in order to guarantee that a certain quality is maintained. A default value of 0.01cm (or ~0.004 inches in game units) is safe to use and it most likely should never be changed unless the units you are using differ. If you do run into issues where compression artifacts are visible, in all likelihood the virtual vertex distance used on the problematic bones is not conservative enough.
+  STRING: AUTH=+LOGIN
+  STRING: Authorization: %.*s4-HMAC-SHA256 Credential=%s/%s, SignedHeaders=%s, Signature=%s
+  STRING: Bad login part
+  STRING: Bad password
+  STRING: Base recognizer function recoverFromMismatchedToken called by unknown parser type - provide override for this function
+  STRING: CAESURA(
+  STRING: CALG_AES
+  STRING: CALG_AES_128
+  STRING: CALG_AES_192
+  STRING: CALG_AES_256
+  STRING: Cannot convert KV3 type '%s' (%u) to a string token
+  STRING: cf_socket_close, fd=%qd
+  STRING: cf_socket_open() -> %d, fd=%qd
+  STRING: cf_socket_shutdown, fd=%qd
+  STRING: cf_udp_connect(), opened socket=%qd (%s:%d)
+  STRING: cf_udp_connect(), opened socket=%qd (unconnected)
+  STRING: CompleteAuthToken failed: %s
+  STRING: control code detected in .netrc credentials
+  STRING: cookie
+  STRING: cookie '%s' dropped, domain '%s' must not set cookies for '%s'
+  STRING: cookie '%s' for domain '%s' dropped, would overlay an existing cookie
+  STRING: cookie contains TAB, dropping
+  STRING: Cookie:
+  STRING: Cookie: 
+  STRING: Credentials was passed in the URL when prohibited
+  STRING: CREIWAweuIeV?fVx[????v?aAPAATOaARUHUAaANPEAaAARUaININGUaINTIaUONaESUKUUDOaEEKAAaONSUaOOMUaKAIRIaKARATTOaKARORIIaGARONaGANMAaGIGAaGINIIaKYURIIaGIRUDAAaKIROaKIROGURAMUaKIROMEETORUaKIROWATTOaGURAMUaGURAMUTONaKURUZEIROaKUROONEaKEESUaKORUNAaKOOPOaSAIKURU?feTVih?U???wfgtaSANTIIMUaSIRINGUaSENTIaSENTOaDAASUaDESIaDORUaTONaNANOaNOTTOaHAITUaPAASENTOaPAATUaBAARERUaPIASUTORUaPIKURUaPIKOaBIRUaHUARADDOaHUIITOaBUSSYERUaHURANaHEKUTAARUaPESOaPENIHIaHERUTUaPENSUaPEEZIaBEETAaPOINTOaBORUTOaHONfXfx???fXV??????aPONDOaHOORUaHOONaMAIKUROaMAIRUaMAHHAaMARUKUaMANSYONaMIKURONaMIRIaMIRIBAARUaMEGAaMEGATONaMEETORUaYAADOaYAARUaYUANaRITTORUaRIRAaRUPIIaRUUBURUaREMUaRENTOGENaWATTO??
+  STRING: Descriptor is not a socket
+  STRING: Excessive password length for proxy auth
+  STRING: Extraneous token
+  STRING: Failed to acquire credentials.
+  STRING: Failed to allocate a token stream for '%s'. (Out of memory?)
+  STRING: Failed to receive SSPI authentication token.
+  STRING: Failed to send SSPI authentication token.
+  STRING: GameStartup
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://localhost:3000
+  STRING: http://localhost:9/thumbnail/get
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: I?LOGINDISH?
+  STRING: ignoring failed cookie_init for %s
+  STRING: IKV3TransferInterface_AllowRawStringTokenTransfer
+  STRING: Included max number of cookies (%zu) in request!
+  STRING: invalid octets in name/value, cookie dropped
+  STRING: lexer->mTokens(): Error: No lexer rules were added to the lexer yet!
+  STRING: libpsl problem, rejecting cookie for safety
+  STRING: LoadLibraryExW
+  STRING: LOGIN %s %s
+  STRING: Login denied
+  STRING: m_attributeNameToken
+  STRING: m_boneNameToken
+  STRING: m_flexControllerToken
+  STRING: m_materialGroupToken
+  STRING: m_nYieldToken
+  STRING: MAESI/
+  STRING: Mismatched Token Exception
+  STRING: Missing token
+  STRING: Missing token %s
+  STRING: MIsStringAndTokenType
+  STRING: NIGIDAESH
+  STRING: No password part in the URL
+  STRING: not a socket
+  STRING: oversized cookie dropped, name/val %zu + %zu bytes
+  (Truncated; more matches exist.)
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\d3dx9_26.dll
+Size: 14648744 bytes
+Created: 2026-10-10T17:04:24.0608316+02:00
+Modified: 2026-09-07T16:42:20.0000000+02:00
+Extension: .dll
+Attributes: Normal
+SHA256: 64A4E5F5B0E3BBFA915D6FD7F0CA2D823ACFD6E4A5819EABD86F5D49E977703F
+Signature status: UnknownError
+Signer: CN=Aurora Grid Systems, O=Aurora Grid Systems, C=US
+Certificate issuer: CN=Aurora Grid Systems, O=Aurora Grid Systems, C=US
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+PE architecture: x64
+PE format: PE32+
+PE sections: 11
+String indicator matches: 133
+  STRING:  m=nil base 390625sha512 Valueuint16uint32uint64chan<-<-chanrdtscppopcntGetACPSundayMondayFridayAugustUTC-11UTC-02UTC-08UTC-09UTC+12UTC+13minuteseconddefineCommoncmd/gocryptonetdnsAES-NIsha256SHA-NITASK_A1TASK_A2TASK_A3TASK_A4TASK_A5TASK_A6TASK_A7TASK_A8TASK_B1TASK_B2TASK_B3TASK_B4TASK_B5TASK_B6TASK_B7TASK_B8TASK_C1TASK_C2TASK_C3TASK_C4CopySidWSARecvWSASendconnectbooleanbdoUxXvintegercomplexfloat32float64readdirwriteatconsoleprintlnforcegcallocmWcpuprofallocmRunknowngctraceIO waitrunningsyscallwaitingforevernetworkUNKNOWNcleanup:events, goid=  mark  s=nil
+  STRING:  objs max=scav  ptr ] = (usageinit  ms, fault and  tab= tag= top=[...], fp:1562578125int16int32int64uint8arraykind=sse41sse42ssse3MarchApril+0530+0430+0545+0630+0330+0845+1030+1245+1345-0930monthLocalblockrangeinputGreekInts:Ptrs:query yCcwDWlistensocketStringFormat[]byte' for stringreadatprintf'"&<>
+  STRING:  runqueue= stopwait= runqsize= gfreecnt= throwing= spinning=atomicand8float64nanfloat32nanException  ptrSize=  targetpc= until pc=active < 0unknown pcruntime: ggoroutine  (durable)12207031256103515625ParseFloatcomplex128t.Kind == vpclmulqdqIsValidSidLogonUserWLockFileExReOpenFileNetUserAddNetUserDelNtOpenFileWSASocketW%!Weekday(definition
+  STRING: ) m=3125-Inf+InfAVX2 on Atoiboolint8uintchanfunckindArgsCall in ermsfsrmsse3avx2bmi1bmi2JuneJulyEESTSASTAKSTAKDTACSTACDTAESTAEDTAWSTCESTNZSTNZDT as hourelsewith<%s> 
+  STRING: *aes.block
+  STRING: *aes.blockExpanded
+  STRING: *aes.CTR
+  STRING: *aes.KeySizeError
+  STRING: ,  g->atomicstatus=unexpected g statusbad runtime??mstartm not found in allmstopm holding lockssemaRoot rotateLeftbad notifyList sizeruntime: preempt g0runtime: pcdata is bad ABI descriptionfile already existsfile does not existfile already closed14901161193847656257450580596923828125reflect.Value.Bytesreflect.Value.Fieldreflect.Value.Indexreflect.Value.Slicereflect.Value.Clear are not comparableskip this directorySetTokenInformationGetOverlappedResultMultiByteToWideCharWSADuplicateSocketWbad value for fieldEgypt Standard TimeSudan Standard TimeLibya Standard TimeBahia Standard TimeHaiti Standard TimeYukon Standard TimeAltai Standard TimeIndia Standard TimeSyria Standard TimeRussia Time Zone 11Nepal Standard TimeKorea Standard TimeChina Standard TimeRussia Time Zone 10Tokyo Standard TimeTomsk Standard TimeSamoa Standard TimeTonga Standard Timeunclosed left parenunknown branch typetemplate: %s:%d: %sunexpected %s in %sembedfollowsymlinksgotestjsonbuildtextmultipartmaxheaderstabwriter error: %v
+  STRING: /gc/finalizers/executed:finalizers/memory/classes/heap/objects:bytesruntime.SetFinalizer: cannot pass attempt to drain too many elementsspmc capacity must be a power of 2too many pages allocated in chunk?mspan.ensureSwept: m is not lockedruntime: source value is too largeVirtualQuery for stack base failedforEachP: sched.safePointWait != 0schedule: spinning with local workentersyscallblock inconsistent bp entersyscallblock inconsistent sp runtime: g is running but p is not3552713678800500929355621337890625reflect: Method index out of rangereflect: ChanDir of non-chan type reflect: Field of non-struct type reflect: Field index out of boundsreflect.FuncOf: too many argumentsreflect.StructOf: duplicate field " is anonymous but has PkgPath setreflect: string index out of rangereflect: recv on send-only channelreflect: send on recv-only channelreflect.Value.Grow: slice overflowunexpected runtime.netpoll error: : day-of-year does not match monthconcurrent map clone and map writecrypto/aes: invalid buffer overlapnetwork dropped connection on resettransport endpoint is not connectedunsigned integer overflow on token expected unsigned integer; found %snon-comparable types %s: %v, %s: %vpersistentalloc: align is too large/memory/classes/heap/released:bytesgreyobject: obj not pointer-alignedruntime: span inline mark bits nil?mismatched begin/end of activeSweepmheap.freeSpanLocked - invalid freefailed to get or create weak handleattempt to clear non-empty span setruntime: close polldesc w/o unblockruntime: inconsistent read deadlineNtCreateWaitCompletionPacket failedfindRunnable: netpoll with spinningpidleput: P has non-empty run queuefake timer executing with no bubbletraceback did not unwind completelyruntime: createevent failed; errno=1776356839400250464677810668945312588817841970012523233890533447265625reflect: Fields of non-struct type " is unexported but missing PkgPathreflect.MakeSlice of non-slice typefile type does not support deadline2006-01-02T15:04:05.999999999Z07:00range can only initialize variablesaccessing a corrupted shared librarysyntax error scanning complex numberexceeded maximum template depth (%v)%s is not a method but has argumentsinternal error: associate not commonlfstack node allocated from the heap) is larger than maximum page size (objects with pointers must be zeroedruntime: invalid typeBitsBulkBarrieruncaching span but s.allocCount == 0Scan trace for cleanup/finalizer on /memory/classes/metadata/other:bytes/sched/goroutines/running:goroutines/sched/goroutines/waiting:goroutines/sched/goroutines-created:goroutines/sched/pauses/stopping/other:secondsspanQueue.destroy on non-empty queueuser arena span is on the wrong listruntime: marked free object in span runtime: unblock on closing polldescruntime: inconsistent write deadlineUnable to determine system directoryruntime: VirtualQuery failed; errno=runtime: sudog with non-nil waitlinkruntime: mcall called on m->g0 stackstartm: P required for spinning=true) is not Grunnable or Gscanrunnable
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: _cgo_pthread_key_created missingruntime: sudog with non-nil elemruntime: sudog with non-nil nextruntime: sudog with non-nil prevruntime: mcall function returnedruntime: newstack called from g=runtime: stack split at bad timepanic while printing panic valueruntime: setevent failed; errno=runtime.semasleep wait_abandoned28421709430404007434844970703125reflect: NumOut of non-func typeMapIter.Value called before Nextreflect: NumIn of non-func type reflect.Value.Grow: negative len" not supported for cpu option "use of closed network connection: day-of-year does not match daymalformed character constant: %sinitial table capacity too largecrypto/aes: input not full blocksubtle.XORBytes: invalid overlaptoo many levels of symbolic linksInitializeProcThreadAttributeListcannot index slice/array with nilsync: RUnlock of unlocked RWMutexslice bounds out of range [%x:%y]base outside usable address spaceruntime: memory allocated by OS [misrounded allocation in sysAllocruntime: failed to decommit pages/cpu/classes/gc/pause:cpu-seconds/cpu/classes/gc/total:cpu-seconds/gc/limiter/last-enabled:gc-cycle/memory/classes/heap/stacks:bytes/memory/classes/heap/unused:bytes/sched/pauses/stopping/gc:seconds/sched/pauses/total/other:secondsmin must be a non-zero power of 2runtime: failed mSpanList.insert runtime: castogscanstatus oldval=stoplockedm: inconsistent lockingfindRunnable: negative nmspinningfreeing stack not in a stack spanstackalloc not on scheduler stackruntime: goroutine stack exceeds runtime: text offset out of rangetimer period must be non-negativetoo many concurrent timer firingsruntime: name offset out of rangeruntime: type offset out of range142108547152020037174224853515625710542735760100185871124267578125fixedFtoa called with digits > 18reflect: slice index out of rangereflect: NumOut of non-func type  of method on nil interface valuereflect: Field index out of rangereflect: array index out of rangereflect.Value.Equal: invalid Kind to pointer to array with length GODEBUG: no value specified for "skip everything and stop the walkGetVolumeNameForVolumeMountPointWwaiting for unsupported file typecan't wait on blocking operationsconcurrent map read and map writetable must have positive capacitycrypto/aes: output not full blocktoo many references: cannot spliceSetFileCompletionNotificationModescan't evaluate field %s in type %scan't handle %s for arg of type %svalue is nil; should be of type %sslice bounds out of range [:%x:%y]slice bounds out of range [%x:%y:]out of memory allocating allArenas... too many potential issues ...
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 192.168.1.1broken pipebad messagefile existsbad addressRegCloseKeyCloseHandleCreateFileWDeleteFileWExitProcessFreeLibraryGetFileTypeOpenProcessSetFileTimeVirtualLockWSARecvFromclosesocketgetpeernamegetsocknamecrypt32.dllmswsock.dllsecur32.dllshell32.dlluserenv.dllbad verb '%0123456789_/dev/stdout/dev/stderrunreachablenot reachedcall of nilassistQueuenetpollInitreflectOffsglobalAllocmSpanManualstart traceclobberfreegccheckmarkscheddetailunspecifiedcgocall nil s.nelems=   of size  runtime: p  ms clock,  nBSSRoots=runtime: P  exp.) for minTrigger=GOMEMLIMIT=bad m value, elemsize= freeindex= span.list=, npages =  p->status= in status  idleprocs= gcwaiting= schedtick= timerslen= mallocing=float64nan1float64nan2float64nan3float32nan2GOTRACEBACK) at entry+ (targetpc= , plugin: running < 0runtime: g : frame.sp=created by 30517578125short writebad argSizemethodargs(reflect.SetProcessPrngMoveFileExWNetShareAddNetShareDeli/o timeoutexpected :=empty field (deleted)
+  STRING: 2384185791015625invalid bit size0123456789ABCDEF: value of type reflect.MakeFuncGODEBUG: value "DuplicateTokenExSetEntriesInAclWCreateNamedPipeWGetModuleHandleWRtlVirtualUnwindtime: bad [0-9]*unclosed commentallowmultiplevcscryptocustomrandhttpcookiemaxnumschedulerTemplatepermission deniedwrong medium typeno data availableexec format errorLookupAccountSidWDnsRecordListFreeGetCurrentProcessGetShortPathNameWWSAEnumProtocolsW0123456789ABCDEFX0123456789abcdefxreflect.Value.Intillegal hex digitcan't scan type: winreadlinkvolumegoroutine profileAllThreadsSyscallcontainermaxprocsGC assist markingselect (no cases)sync.RWMutex.Lockwait for GC cycletrace proc statussync.(*Cond).Wait: missing method invalid addrBytesinvalid wordBytesnotetsleepg on g0bad TinySizeClassimmortal metadataruntime: pointer g already scannedmark - bad statusscanObject n == 0swept cached spanmarkBits overflowruntime: summary[runtime: level = , p.searchAddr = RtlGetCurrentPeb
+  STRING: advapi32.dllGetUserNameAinvalid slothost is downillegal seekGetLengthSidGetLastErrorGetStdHandleGetTempPathWLoadLibraryWReadConsoleWSetEndOfFileTransmitFileGetAddrInfoWiphlpapi.dllnetapi32.dllcan't happeninvalid kindsweepWaiterscleanupQueuetraceStringsspanSetSpinemspanSpecialtraceTypeTabgcBitsArenasmheapSpecialgcpacertraceharddecommitmadvdontneeddumping heapchan receivesynctest.Runcleanup wait span.limit= span.state=bad flushGen MB stacks, worker mode  nDataRoots= nSpanRoots= wbuf1=<nil> wbuf2=<nil> gcscandone runtime: gp= found at *( s.elemsize=scan: total scan: class  B (???goal , cons/mark  maxTrigger= pages/byte
+  STRING: aeshashbody
+  STRING: bad file descriptordisk quota exceededtoo many open filesdevice not a streamdirectory not emptyCryptReleaseContextGetTokenInformationCreateSymbolicLinkWWaitForSingleObjectreflect.Value.IsNilreflect.Value.Floatbad unicode format strongFromWeakQueueGC mark terminationsync.WaitGroup.Waitchan send (durable)wait for debug callpanicwrap: no ( in panicwrap: no ) in  called using nil *unknown wait reasonnotesleep not on g0GC work not flushed/gc/scan/heap:bytes/gc/heap/goal:bytes/gc/heap/live:bytesmarkroot: bad index, gp->atomicstatus=marking free object KiB work (eager),  [controller reset]mspan.sweep: state=sysMemStat overflowbad sequence numberntdll.dll not foundwinmm.dll not foundruntime: g0 stack [panic during mallocpanic holding locksmissing deferreturnunexpected gp.parampanic during panic
+  STRING: complexTokens
+  STRING: crypto/aes: internal error: using generic implementation despite hardware supportexpected all size classes up to min size for malloc header to fit in one-page spansreflect: embedded type with methods not implemented if there is more than one fieldreflect.Value.Interface: cannot return value obtained from unexported field or methodreflect: New of type that may not be allocated in heap (possibly undefined cgo C type)cgocheck > 1 mode is no longer supported at runtime. Use GOEXPERIMENT=cgocheck2 at build time instead.internal/sync.HashTrieMap: ran out of hash bits while inserting (incorrect use of unsafe or cgo, or data race?)00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899?uR
+  STRING: crypto/internal/fips140/aes
+  STRING: crypto/internal/fips140/aes.(*Block).BlockSize
+  STRING: crypto/internal/fips140/aes.(*Block).Decrypt
+  STRING: crypto/internal/fips140/aes.(*Block).Encrypt
+  STRING: crypto/internal/fips140/aes.(*blockExpanded).roundKeysSize
+  STRING: crypto/internal/fips140/aes.(*CBCDecrypter).CryptBlocks
+  STRING: crypto/internal/fips140/aes.(*CBCEncrypter).CryptBlocks
+  STRING: crypto/internal/fips140/aes.(*CTR).XORKeyStream
+  STRING: crypto/internal/fips140/aes.(*CTR).XORKeyStreamAt
+  STRING: crypto/internal/fips140/aes.(*KeySizeError).Error
+  STRING: crypto/internal/fips140/aes.add128
+  STRING: crypto/internal/fips140/aes.checkGenericIsExpected
+  STRING: crypto/internal/fips140/aes.cryptBlocksDec
+  STRING: crypto/internal/fips140/aes.cryptBlocksDecGeneric
+  STRING: crypto/internal/fips140/aes.cryptBlocksEnc
+  STRING: crypto/internal/fips140/aes.cryptBlocksEncGeneric
+  STRING: crypto/internal/fips140/aes.ctrBlocks
+  STRING: crypto/internal/fips140/aes.ctrBlocks1
+  STRING: crypto/internal/fips140/aes.ctrBlocks1Asm
+  STRING: crypto/internal/fips140/aes.ctrBlocks2
+  STRING: crypto/internal/fips140/aes.ctrBlocks2Asm
+  STRING: crypto/internal/fips140/aes.ctrBlocks4
+  STRING: crypto/internal/fips140/aes.ctrBlocks4Asm
+  STRING: crypto/internal/fips140/aes.ctrBlocks8
+  STRING: crypto/internal/fips140/aes.ctrBlocks8Asm
+  STRING: crypto/internal/fips140/aes.decryptBlock
+  STRING: crypto/internal/fips140/aes.decryptBlockAsm
+  STRING: crypto/internal/fips140/aes.decryptBlockGeneric
+  STRING: crypto/internal/fips140/aes.encryptBlock
+  STRING: crypto/internal/fips140/aes.encryptBlockAsm
+  STRING: crypto/internal/fips140/aes.encryptBlockGeneric
+  STRING: crypto/internal/fips140/aes.EncryptBlockInternal
+  STRING: crypto/internal/fips140/aes.expandKeyAsm
+  STRING: crypto/internal/fips140/aes.expandKeyGeneric
+  STRING: crypto/internal/fips140/aes.init
+  STRING: crypto/internal/fips140/aes.init.0
+  STRING: crypto/internal/fips140/aes.init.1
+  STRING: crypto/internal/fips140/aes.init.1.func1
+  STRING: crypto/internal/fips140/aes.KeySizeError.Error
+  STRING: crypto/internal/fips140/aes.New
+  STRING: crypto/internal/fips140/aes.newBlock
+  STRING: crypto/internal/fips140/aes.NewCBCDecrypter
+  STRING: crypto/internal/fips140/aes.NewCBCEncrypter
+  STRING: crypto/internal/fips140/aes.newCTR
+  STRING: crypto/internal/fips140/aes.newOutlined
+  STRING: crypto/internal/fips140/aes.rotw
+  STRING: crypto/internal/fips140/aes.RoundToBlock
+  STRING: crypto/internal/fips140/aes.subw
+  STRING: crypto/internal/fips140/aes/aes.go
+  STRING: crypto/internal/fips140/aes/aes_amd64.s
+  STRING: crypto/internal/fips140/aes/aes_asm.go
+  STRING: crypto/internal/fips140/aes/aes_generic.go
+  STRING: crypto/internal/fips140/aes/cast.go
+  STRING: crypto/internal/fips140/aes/cbc.go
+  STRING: crypto/internal/fips140/aes/cbc_noasm.go
+  STRING: crypto/internal/fips140/aes/ctr.go
+  STRING: crypto/internal/fips140/aes/ctr_amd64.s
+  STRING: crypto/internal/fips140/aes/ctr_asm.go
+  STRING: crypto/internal/fips140/aes/gcm.(*CMAC).deriveSubkeys
+  STRING: crypto/internal/fips140/aes/gcm.(*CMAC).MAC
+  STRING: crypto/internal/fips140/aes/gcm.(*CounterKDF).DeriveKey
+  STRING: crypto/internal/fips140/aes/gcm.init
+  STRING: crypto/internal/fips140/aes/gcm.init.0
+  STRING: crypto/internal/fips140/aes/gcm.init.0.func1
+  STRING: crypto/internal/fips140/aes/gcm.init.1
+  STRING: crypto/internal/fips140/aes/gcm.NewCMAC
+  STRING: crypto/internal/fips140/aes/gcm.NewCounterKDF
+  STRING: crypto/internal/fips140/aes/gcm.shiftLeft
+  STRING: crypto/internal/fips140/aes/gcm/cast.go
+  STRING: crypto/internal/fips140/aes/gcm/cmac.go
+  STRING: crypto/internal/fips140/aes/gcm/ctrkdf.go
+  STRING: crypto/internal/fips140/aes/gcm/gcm.go
+  STRING: crypto/internal/fips140/aes/gcm/gcm_asm.go
+  STRING: crypto/internal/fips140/aes/gcm/ghash.go
+  STRING: elem math/randtlsrsakexcSHAKE1280123456789RoundRobinowner diedDnsQuery_WGetIfEntryCancelIoExCreatePipeGetVersionLocalAllocWSACleanupWSAStartupgetsockoptsetsockoptdnsapi.dllws2_32.dllParseAddr(invalid IPwinsymlink/dev/stdin<no value>value for arg %d: %wvgetrandomnotifyListprofInsertstackLargeNot workermSpanInUseGOMAXPROCSstop tracedisablethpinvalidptrschedtracesemacquiredebug call  <bad pc  flushGen  MB goal,  cleanups
+  STRING: ExampleSchedulerinvalid exchangeno route to hostinvalid argumentmessage too longobject is remoteremote I/O errorSetFilePointerExOpenProcessTokenRegQueryInfoKeyWRegQueryValueExWDnsNameCompare_WCreateDirectoryWFlushFileBuffersGetComputerNameWGetFullPathNameWGetLongPathNameWRemoveDirectoryWTerminateProcessNetApiBufferFreeexpected integerexpected newline0123456789abcdeftemplate: %s: %sunknown node: %s%s overflows intinteger overflowdecoratemappingsgcshrinkstackofftracefpunwindoffGC scavenge waitGC worker (idle)page trace flushselect (durable)heap reservation/gc/gogc:percent, not a functiongc: unswept span KiB work (bg),  mheap.sweepgen=runtime: nelems=workbuf is emptymSpanList.removemSpanList.insertbad special kindpage alloc indexbad summary dataruntime: addr = runtime: base = runtime: head =  already; errno=
+  STRING: floatToken
+  (Truncated; more matches exist.)
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\embree3.dll
+Size: 21996904 bytes
+Created: 2026-10-10T17:04:24.4214878+02:00
+Modified: 2026-08-13T18:08:17.4441543+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 903B3C680FFBF2965D7988F0A42D902C5E198CAB15C435DDEA79852573BE3620
+Signature status: Valid
+Signer: CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US
+Certificate issuer: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+Product: Intel® Embree
+Description: Embree Ray Tracing Kernels
+Company: Intel
+File version: 3.13.4
+Product version: 3.13.4
+PE architecture: x64
+PE format: PE32+
+PE sections: 6
+String indicator matches: 23
+  STRING: .?AV?$Stream@VToken@embree@@@embree@@
+  STRING: .?AVTokenStream@embree@@
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: AdjustTokenPrivileges
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: http://www.digicert.com/CPS0??
+  STRING: LoadLibraryA
+  STRING: OpenProcessToken
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: WARNING: AdjustTokenPrivileges failed to enable SeLockMemoryPrivilege: Add SeLockMemoryPrivilege for current user and run process in elevated mode (Run as administrator).
+  STRING: WARNING: AdjustTokenPrivileges failed while trying to enable SeLockMemoryPrivilege
+  STRING: WARNING: OpenProcessToken failed while trying to enable SeLockMemoryPrivilege: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\libcurl.dll
+Size: 1555968 bytes
+Created: 2026-10-10T17:04:23.5813548+02:00
+Modified: 2026-10-02T22:05:09.5269925+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 54FC1E5ED515481A0AF0BECC4E90C0791C631E6656CB879E7543121B596D6CD7
+Signature status: NotSigned
+Signer: 
+Certificate issuer: 
+Product: Network Adapter Service
+Description: System Service Host Process
+Company: Microsoft Windows
+File version: 5.9.14536.347
+Product version: 5.9.14536.347
+PE architecture: x64
+PE format: PE32+
+PE sections: 6
+String indicator matches: 2
+  STRING: GetProcAddress
+  STRING: LoadLibraryA
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\msvcp140.dll
+Size: 564240 bytes
+Created: 2026-10-10T17:04:23.2172669+02:00
+Modified: 2026-09-02T16:34:27.1118118+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 05F5FE2832F4C9CC1ECD4106A6C3588C7B0D5C501CA3D4E145CD7DEC2053E89E
+Signature status: Valid
+Signer: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Visual Studio®
+Description: Microsoft® C Runtime Library
+Company: Microsoft Corporation
+File version: 14.50.35719.0
+Product version: 14.50.35719.0
+PE architecture: x64
+PE format: PE32+
+PE sections: 6
+String indicator matches: 30
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0
+  STRING: ?Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0??
+  STRING: ?Ehttp://www.microsoft.com/pkiops/certs/MicCodSigPCA2011_2011-07-08.crt0
+  STRING: ?ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202013.crt0
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 3http://www.microsoft.com/pkiops/docs/primarycps.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: http://www.microsoft.com0
+  STRING: M0K0I?G?E?Chttp://www.microsoft.com/pkiops/crl/MicCodSigPCA2011_2011-07-08.crl0a
+  STRING: m0k0i?g?e?chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202013.crl0??
+  STRING: not a socket
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: S0Q0O?M?K?Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  STRING: X0V0T?R?P?Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\msvcp140_1.dll
+Size: 46184 bytes
+Created: 2026-10-10T17:04:23.2227805+02:00
+Modified: 2026-09-02T16:34:27.1118118+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 89A3851D09A35FB97864D107E32B1604F9C3A83C80BE9E27FC18CFC7710C7113
+Signature status: Valid
+Signer: CN=Microsoft Windows Software Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Windows Third Party Component CA 2013, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Visual Studio®
+Description: Microsoft® C Runtime Library _1
+Company: Microsoft Corporation
+File version: 14.50.35719.0
+Product version: 14.50.35719.0
+PE architecture: x64
+PE format: PE32+
+PE sections: 6
+String indicator matches: 28
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0
+  STRING: ?Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0??
+  STRING: ?Ehttp://www.microsoft.com/pkiops/certs/MicCodSigPCA2011_2011-07-08.crt0
+  STRING: ?ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202013.crt0
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 3http://www.microsoft.com/pkiops/docs/primarycps.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: http://www.microsoft.com0
+  STRING: M0K0I?G?E?Chttp://www.microsoft.com/pkiops/crl/MicCodSigPCA2011_2011-07-08.crl0a
+  STRING: m0k0i?g?e?chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202013.crl0??
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: S0Q0O?M?K?Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  STRING: X0V0T?R?P?Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\phonon.dll
+Size: 53398168 bytes
+Created: 2026-10-10T17:04:24.5518479+02:00
+Modified: 2026-08-13T18:08:17.4598460+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 6ADE5CDC24D8726EE24508B807789C7F932B42D302AC1E13C89FBA11F0760701
+Signature status: Valid
+Signer: CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US
+Certificate issuer: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+Product: Steam Audio
+Description: Steam Audio Core
+Company: Valve Corporation
+File version: 4.9.0
+Product version: 4.9.0
+PE architecture: x64
+PE format: PE32+
+PE sections: 9
+String indicator matches: 34
+  STRING:  * http://www.apache.org/licenses/LICENSE-2.0
+  STRING: .?AV?$Stream@VToken@embree@@@embree@@
+  STRING: .?AVTokenStream@embree@@
+  STRING: //      https://github.com/GPUOpen-LibrariesAndSDKs/RadeonProRender-Baikal/blob/master/Baikal/Kernels/CL/sampling.cl
+  STRING: //     http://www.apache.org/licenses/LICENSE-2.0
+  STRING: // http://devblogs.nvidia.com/parallelforall/thinking-parallel-part-iii-tree-construction-gpu/ 
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ??w?AeS
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: AdjustTokenPrivileges
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: Intel(R) Advanced Vector Extensions 512 (Intel(R) AVX-512) with support of Intel(R) Deep Learning Boost (Intel(R) DL Boost), EVEX-encoded AES and Carry-Less Multiplication Quadword instructions
+  STRING: LoadLibraryA
+  STRING: LoadLibraryExA
+  STRING: LoadLibraryExW
+  STRING: LoadLibraryW
+  STRING: not a socket
+  STRING: OpenProcessToken
+  STRING: WARNING: AdjustTokenPrivileges failed to enable SeLockMemoryPrivilege: Add SeLockMemoryPrivilege for current user and run process in elevated mode (Run as administrator).
+  STRING: WARNING: AdjustTokenPrivileges failed while trying to enable SeLockMemoryPrivilege
+  STRING: WARNING: OpenProcessToken failed while trying to enable SeLockMemoryPrivilege: 
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\physicsbuilder.dll
+Size: 13595800 bytes
+Created: 2026-10-10T17:04:23.5938649+02:00
+Modified: 2026-08-25T22:44:54.8962677+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 1B28C30593F349E1D94426581D0C5A8D3A30AB48F43A4781B3B2B381B779A0E0
+Signature status: Valid
+Signer: CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US
+Certificate issuer: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+PE architecture: x64
+PE format: PE32+
+PE sections: 5
+String indicator matches: 33
+  STRING: .?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@
+  STRING: .?AV_CancellationTokenRegistration@details@Concurrency@@
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?ParseToken@CUtlBuffer@@QEAA_NPEBD0PEADH@Z
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: @ToolsStartup
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: Applies to skeletal animation only.<br><br>https://github.com/nfrechette/acl/blob/develop/docs/creating_a_skeleton.md<br><br>The virtual vertex distance is used by the error metric function. It will measure the error of a vertex at that particular distance from the bone in object space. This distance should be large enough to contain the vast majority of the visible vertices skinned on that particular bone. The algorithm ensures that all vertices contained up to this distance will have an error lower than the supplied error threshold in the CompressionSettings. It is generally sufficient for this value to be approximate and it is often safe to use the same value for every bone in humanoid characters. A value of 3cm (or ~1 inch in game units) is good enough for cinematographic quality for most characters. While visible vertices around the torso will often be further away than this, finger tips and facial bones will be closer than that. Because the compressed track data is stored in relative space of the parent bone, any error will accumulate down the hierarchy. This means that in order to keep the leaf bones within that accuracy threshold, all the parent bones in that chain will require even higher accuracy.
+  STRING: Applies to skeletal animation only.<br><br>See :: https://github.com/nfrechette/acl/blob/develop/docs/compressing_a_raw_clip.md<br><br>The last important setting to choose is the error_threshold. This is used in conjunction with the error metric and the virtual vertex distance from the skeleton in order to guarantee that a certain quality is maintained. A default value of 0.01cm (or ~0.004 inches in game units) is safe to use and it most likely should never be changed unless the units you are using differ. If you do run into issues where compression artifacts are visible, in all likelihood the virtual vertex distance used on the problematic bones is not conservative enough.
+  STRING: CUtlStringToken
+  STRING: CUtlStringTokenWithStorage
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: LoadLibraryExW
+  STRING: m_boneNameToken
+  STRING: m_flexControllerToken
+  STRING: m_materialGroupToken
+  STRING: MIsStringAndTokenType
+  STRING: not a socket
+  STRING: startUp
+  STRING: ToolsStartupPreGame
+  STRING: VStringTokenSystem001
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\resourcecompiler.dll
+Size: 56456344 bytes
+Created: 2026-10-10T17:04:23.7371655+02:00
+Modified: 2026-08-25T22:44:54.8962677+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 00D6225066AB21D7511E5B8F2A7CE4CAE5D4F716213184278A4B24F3C39372D6
+Signature status: Valid
+Signer: CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US
+Certificate issuer: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+PE architecture: x64
+PE format: PE32+
+PE sections: 5
+String indicator matches: 317
+  STRING:  : Missing token (%d)...
+  STRING:  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+  STRING:  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+  STRING: $TEXTURE_REPLACEMENT_TOKEN
+  STRING: %s(token %i, line %i, col %i) : %s
+  STRING: *** CVfx::StartupSanityCheck(7031): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!
+  STRING: *** Error masking unused parts! Equal sign not found after token "%s"! (line %d)
+  STRING: .?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@
+  STRING: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PreProcessMapDocForBuild@@YAXPEAVCMapDoc@@PEBDAEAVCLightCookies@@W4MapDocPreProcessFlags_t@@@Z@X$$V@std@@
+  STRING: .?AV?$CParallelLambdaJob@V<lambda_1>@?M@???$ParallelFor@$00V<lambda_1>@?1??PreProcessLights@@YAXPEAVCMapDoc@@AEAVCLightCookies@@@Z@@@YAXHHPEBD$$QEAV1?1??PreProcessLights@@YAXPEAVCMapDoc@@AEAVCLightCookies@@@Z@HHW4JobPriority_t@@@Z@@CParallelProcessLauncher@@
+  STRING: .?AV_CancellationTokenRegistration@details@Concurrency@@
+  STRING: .?AV<lambda_1>@?1??PreProcessMapDocForBuild@@YAXPEAVCMapDoc@@PEBDAEAVCLightCookies@@W4MapDocPreProcessFlags_t@@@Z@
+  STRING: .?AVCPanoramaStyleTokenizer@@
+  STRING: .?AVCPanoramaTokenizer@@
+  STRING: .?AVCUtlTokenizer@@
+  STRING: .\crypto\evp\e_aes.c
+  STRING: ????Y?K?Vector Permutation AES for x86_64/SSSE3, Mike Hamburg (Stanford University)
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?aes(partial)
+  STRING: ?Make@CUtlStringToken@@SA?AV1@PEBD@Z
+  STRING: ?ParseToken@CUtlBuffer@@QEAA_NPEBD0PEADH@Z
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: <no text for the token>
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 1:1: Tokens : ( PLUS | MINUS | MUL | DIV | COMMA | LPAREN | RPAREN | EQUALS | PERCENT | INT | FLOAT | ID | ML_COMMENT | SL_COMMENT | NL | WS );
+  STRING: 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
+  STRING: 1:1: Tokens : ( T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | SCOPE_QUALIFIER | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
+  STRING: ADH-AES128-GCM-SHA256
+  STRING: ADH-AES128-SHA
+  STRING: ADH-AES128-SHA256
+  STRING: ADH-AES256-GCM-SHA384
+  STRING: ADH-AES256-SHA
+  STRING: ADH-AES256-SHA256
+  STRING: AECDH-AES128-SHA
+  STRING: AECDH-AES256-SHA
+  STRING: AES for Intel AES-NI, CRYPTOGAMS by <appro@openssl.org>
+  STRING: AES for x86_64, CRYPTOGAMS by <appro@openssl.org>
+  STRING: aes iv setup failed
+  STRING: aes key setup failed
+  STRING: AES part of OpenSSL 1.0.2j  26 Sep 2016
+  STRING: AES(128)
+  STRING: AES(256)
+  STRING: AES_INIT_KEY
+  STRING: AES_T4_INIT_KEY
+  STRING: AES_XTS
+  STRING: AES_XTS_CIPHER
+  STRING: aes128
+  STRING: AES-128-CBC
+  STRING: AES-128-CBC-HMAC-SHA1
+  STRING: AES-128-CBC-HMAC-SHA256
+  STRING: aes-128-ccm
+  STRING: aes-128-cfb
+  STRING: AES-128-CFB1
+  STRING: aes-128-cfb8
+  STRING: AES-128-CTR
+  STRING: AES-128-ECB
+  STRING: aes-128-gcm
+  STRING: AES128-GCM-SHA256
+  STRING: AES-128-OFB
+  STRING: AES128-SHA
+  STRING: AES128-SHA256
+  STRING: aes-128-xts
+  STRING: AES192
+  STRING: AES-192-CBC
+  STRING: aes-192-cbc-hmac-sha1
+  STRING: AES-192-CBC-HMAC-SHA256
+  STRING: aes-192-ccm
+  STRING: aes-192-cfb
+  STRING: aes-192-cfb1
+  STRING: AES-192-CFB8
+  STRING: AES-192-CTR
+  STRING: AES-192-ECB
+  STRING: aes-192-gcm
+  STRING: aes-192-ofb
+  STRING: aes256
+  STRING: aes-256-cbc
+  STRING: aes-256-cbc-hmac-sha1
+  STRING: aes-256-cbc-hmac-sha256
+  STRING: aes-256-ccm
+  STRING: AES-256-CFB
+  STRING: AES-256-CFB1
+  STRING: AES-256-CFB8
+  STRING: AES-256-CTR
+  STRING: aes-256-ecb
+  STRING: aes-256-gcm
+  STRING: AES256-GCM-SHA384
+  STRING: AES-256-OFB
+  STRING: AES256-SHA
+  STRING: AES256-SHA256
+  STRING: AES-256-XTS
+  STRING: AESGCM
+  STRING: AESGCM(128)
+  STRING: AESGCM(256)
+  STRING: AES-NI GCM module for x86_64, CRYPTOGAMS by <appro@openssl.org>
+  STRING: AESNI_INIT_KEY
+  (Truncated; more matches exist.)
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\toolframework2.dll
+Size: 13352088 bytes
+Created: 2026-10-10T17:04:23.6672955+02:00
+Modified: 2026-08-25T22:44:54.8972712+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 442C084D41BA659B00FE108ACBA3CBE33C0E45C87C6CDE7A538C0FE42EAF9A3B
+Signature status: Valid
+Signer: CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US
+Certificate issuer: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+PE architecture: x64
+PE format: PE32+
+PE sections: 5
+String indicator matches: 52
+  STRING:  : Missing token (%d)...
+  STRING: (socket)
+  STRING: .?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@
+  STRING: .?AV_CancellationTokenRegistration@details@Concurrency@@
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: <no text for the token>
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 1:1: Tokens : ( T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | SCOPE_QUALIFIER | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
+  STRING: Applies to skeletal animation only.<br><br>https://github.com/nfrechette/acl/blob/develop/docs/creating_a_skeleton.md<br><br>The virtual vertex distance is used by the error metric function. It will measure the error of a vertex at that particular distance from the bone in object space. This distance should be large enough to contain the vast majority of the visible vertices skinned on that particular bone. The algorithm ensures that all vertices contained up to this distance will have an error lower than the supplied error threshold in the CompressionSettings. It is generally sufficient for this value to be approximate and it is often safe to use the same value for every bone in humanoid characters. A value of 3cm (or ~1 inch in game units) is good enough for cinematographic quality for most characters. While visible vertices around the torso will often be further away than this, finger tips and facial bones will be closer than that. Because the compressed track data is stored in relative space of the parent bone, any error will accumulate down the hierarchy. This means that in order to keep the leaf bones within that accuracy threshold, all the parent bones in that chain will require even higher accuracy.
+  STRING: Applies to skeletal animation only.<br><br>See :: https://github.com/nfrechette/acl/blob/develop/docs/compressing_a_raw_clip.md<br><br>The last important setting to choose is the error_threshold. This is used in conjunction with the error metric and the virtual vertex distance from the skeleton in order to guarantee that a certain quality is maintained. A default value of 0.01cm (or ~0.004 inches in game units) is safe to use and it most likely should never be changed unless the units you are using differ. If you do run into issues where compression artifacts are visible, in all likelihood the virtual vertex distance used on the problematic bones is not conservative enough.
+  STRING: Assetsystem Startup Modal Dialog
+  STRING: Base recognizer function recoverFromMismatchedToken called by unknown parser type - provide override for this function
+  STRING: Cannot recover from failed socket shutdown. (error %d)
+  STRING: CUtlStringToken
+  STRING: CUtlStringTokenWithStorage
+  STRING: Extraneous token
+  STRING: Failed to allocate a token stream for '%s'. (Out of memory?)
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0]
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://www.digicert.com/CPS0
+  STRING: https://developer.valvesoftware.com/
+  STRING: Import Socket Listener finishing...
+  STRING: ImportSocketListenerThread
+  STRING: lexer->mTokens(): Error: No lexer rules were added to the lexer yet!
+  STRING: LoadLibraryExW
+  STRING: m_boneNameToken
+  STRING: m_flexControllerToken
+  STRING: m_materialGroupToken
+  STRING: Mismatched Token Exception
+  STRING: Missing token
+  STRING: Missing token %s
+  STRING: MIsStringAndTokenType
+  STRING: not a socket
+  STRING: The import tool encountered socket error %d while reading data from the input source.
+  STRING: ToolsStartup
+  STRING: ToolsStartupPreGame
+  STRING: Unexpected token
+  STRING: Unexpected token '%s' %s
+  STRING: Unexpected trailing tokens
+  STRING: Unwanted token '%s' %s
+  STRING: VStringTokenSystem001
+  STRING: X0V0T?R?P?Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\v8.dll
+Size: 50473832 bytes
+Created: 2026-10-10T17:04:24.8569239+02:00
+Modified: 2026-08-13T18:08:17.4598460+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: F85C79B1FE07C75BEFE22ACD91C5D34A39FF83D9284FD9243A72C364A406822D
+Signature status: Valid
+Signer: CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US
+Certificate issuer: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+PE architecture: x64
+PE format: PE32+
+PE sections: 10
+String indicator matches: 228
+  STRING:         kPromiseReactionJobTaskHandlerOffset) at https://source.chromium.org/chromium/chromium/src/+/main:v8/src/builtins/promise-abstract-operations.tq?l=125&c=5
+  STRING:         kPromiseReactionJobTaskPromiseOrCapabilityOffset) at https://source.chromium.org/chromium/chromium/src/+/main:v8/src/builtins/promise-abstract-operations.tq?l=128&c=5
+  STRING:         kPromiseReactionJobTaskPromiseOrCapabilityOffset) at https://source.chromium.org/chromium/chromium/src/+/main:v8/src/builtins/promise-abstract-operations.tq?l=141&c=5
+  STRING:       ContextSlot::MIN_CONTEXT_SLOTS + 3) at https://source.chromium.org/chromium/chromium/src/+/main:v8/src/builtins/promise-all.tq?l=78&c=3
+  STRING:       kPromiseReactionJobTaskSizeOfAllPromiseReactionJobTasks) at https://source.chromium.org/chromium/chromium/src/+/main:v8/src/builtins/promise-abstract-operations.tq?l=114&c=3
+  STRING: %10d bytes for startup
+  STRING: (Startup object cache)
+  STRING: .?AV?$_Ref_count@UCancelToken@EvaluateScope@V8InspectorImpl@v8_inspector@@@std@@
+  STRING: .?AVStartupDeserializer@internal@v8@@
+  STRING: .?AVStartupSerializer@internal@v8@@
+  STRING: .?AVTokenizingLineArrayCompareOutput@?A0x62832c4e@internal@v8@@
+  STRING: .?AVTokensCompareInput@?A0x62832c4e@internal@v8@@
+  STRING: .?AVTokensCompareOutput@?A0x62832c4e@internal@v8@@
+  STRING: ??_7StartupSerializer@internal@v8@@6B@
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+  STRING: ??0ContextSerializer@internal@v8@@QEAA@PEAVIsolate@12@V?$Flags@W4SerializerFlag@Snapshot@internal@v8@@HH@base@2@PEAVStartupSerializer@12@USerializeInternalFieldsCallback@2@@Z
+  STRING: ??0SnapshotCreator@v8@@QEAA@PEAVIsolate@1@PEB_JPEBVStartupData@1@_N@Z
+  STRING: ??0SnapshotCreator@v8@@QEAA@PEB_JPEBVStartupData@1@@Z
+  STRING: ??0StartupSerializer@internal@v8@@QEAA@PEAVIsolate@12@V?$Flags@W4SerializerFlag@Snapshot@internal@v8@@HH@base@2@PEAVSharedHeapSerializer@12@@Z
+  STRING: ??1StartupSerializer@internal@v8@@UEAA@XZ
+  STRING: ??4StartupData@v8@@QEAAAEAV01@$$QEAV01@@Z
+  STRING: ??4StartupData@v8@@QEAAAEAV01@AEBV01@@Z
+  STRING: ??4Token@internal@v8@@QEAAAEAV012@$$QEAV012@@Z
+  STRING: ??4Token@internal@v8@@QEAAAEAV012@AEBV012@@Z
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?BinaryOperation@BytecodeArrayBuilder@interpreter@internal@v8@@QEAAAEAV1234@W4Value@Token@34@VRegister@234@H@Z
+  STRING: ?BinaryOperationSmiLiteral@BytecodeArrayBuilder@interpreter@internal@v8@@QEAAAEAV1234@W4Value@Token@34@V?$Tagged@VSmi@internal@v8@@@34@H@Z
+  STRING: ?BinaryOpForAssignment@Token@internal@v8@@SA?AW4Value@123@W44123@@Z
+  STRING: ?BuildUnaryExpression@Parser@internal@v8@@AEAAPEAVExpression@23@PEAV423@W4Value@Token@23@H@Z
+  STRING: ?CalculateChecksum@Snapshot@internal@v8@@SAIPEBVStartupData@3@@Z
+  STRING: ?CanBeRehashed@StartupData@v8@@QEBA_NXZ
+  STRING: ?Check@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAA_NW4Value@Token@23@@Z
+  STRING: ?CheckNoDirtyFinalizationRegistries@StartupSerializer@internal@v8@@QEAAXXZ
+  STRING: ?ClassifyPropertyIdentifier@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAA_NW4Value@Token@23@PEAUParsePropertyInfo@123@@Z
+  STRING: ?CollapseNaryExpression@Parser@internal@v8@@AEAA_NPEAPEAVExpression@23@PEAV423@W4Value@Token@23@HAEBUSourceRange@23@@Z
+  STRING: ?CompareNil@BytecodeArrayBuilder@interpreter@internal@v8@@QEAAAEAV1234@W4Value@Token@34@W4NilValue@1234@@Z
+  STRING: ?CompareOperation@BytecodeArrayBuilder@interpreter@internal@v8@@QEAAAEAV1234@W4Value@Token@34@VRegister@234@H@Z
+  STRING: ?Consume@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAAXW4Value@Token@23@@Z
+  STRING: ?CreateBlob@SnapshotCreator@v8@@QEAA?AVStartupData@2@W4FunctionCodeHandling@12@@Z
+  STRING: ?CreateSnapshotDataBlobInternal@internal@v8@@YA?AVStartupData@2@W4FunctionCodeHandling@SnapshotCreator@2@PEBDPEAVIsolate@12@V?$Flags@W4SerializerFlag@Snapshot@internal@v8@@HH@base@2@@Z
+  STRING: ?CreateSnapshotDataBlobInternalForInspectorTest@internal@v8@@YA?AVStartupData@2@W4FunctionCodeHandling@SnapshotCreator@2@PEBD@Z
+  STRING: ?current@Scanner@internal@v8@@AEBAAEBUTokenDesc@123@XZ
+  STRING: ?current_token@Scanner@internal@v8@@QEBA?AW4Value@Token@23@XZ
+  STRING: ?CurrentMatches@Scanner@internal@v8@@QEBA_NW4Value@Token@23@@Z
+  STRING: ?Expect@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAAXW4Value@Token@23@@Z
+  STRING: ?ExpressionFromLiteral@Parser@internal@v8@@AEAAPEAVExpression@23@W4Value@Token@23@H@Z
+  STRING: ?ExtractReadOnlySnapshotChecksum@Snapshot@internal@v8@@SAIPEBVStartupData@3@@Z
+  STRING: ?GetExpectedChecksum@Snapshot@internal@v8@@SAIPEBVStartupData@3@@Z
+  STRING: ?GetSecurityToken@Context@v8@@QEAA?AV?$Local@VValue@v8@@@2@XZ
+  STRING: ?InitializeExternalStartupData@V8@v8@@SAXPEBD@Z
+  STRING: ?InitializeExternalStartupDataFromFile@V8@v8@@SAXPEBD@Z
+  STRING: ?is_security_token@Isolate@internal@v8@@QEAA_NV?$Tagged@VObject@internal@v8@@@23@@Z
+  STRING: ?IsAnyIdentifier@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsArrowOrAssignmentOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsAssignmentOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsAutoSemicolon@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsBinaryOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsBitOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsCallable@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsCompareOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsCountOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsEqualityOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsKeyword@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsLiteral@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsLogicalAssignmentOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsMember@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsOrderedRelationalCompareOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsProperty@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsPropertyName@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsPropertyOrCall@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsShiftOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsStrictReservedWord@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsTemplate@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsUnaryOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsUnaryOrCountOp@Token@internal@v8@@SA_NW4Value@123@@Z
+  STRING: ?IsValid@StartupData@v8@@QEBA_NXZ
+  STRING: ?IsValidIdentifier@Token@internal@v8@@SA_NW4Value@123@W4LanguageMode@23@_N2@Z
+  STRING: ?js_finalization_registry_remove_cell_from_unregister_token_map@ExternalReference@internal@v8@@SA?AV123@XZ
+  STRING: ?JumpIfNil@BytecodeArrayBuilder@interpreter@internal@v8@@QEAAAEAV1234@PEAVBytecodeLabel@234@W4Value@Token@34@W4NilValue@1234@@Z
+  STRING: ?JumpIfNotNil@BytecodeArrayBuilder@interpreter@internal@v8@@QEAAAEAV1234@PEAVBytecodeLabel@234@W4Value@Token@34@W4NilValue@1234@@Z
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?LiteralContainsEscapes@Scanner@internal@v8@@CA_NAEBUTokenDesc@123@@Z
+  STRING: ?LoadSharedFunctionInfoFunctionTokenOffset@TorqueGeneratedExportedMacrosAssembler@internal@v8@@QEAA?AV?$TNode@UUint16T@internal@v8@@@23@V?$TNode@VSharedFunctionInfo@internal@v8@@@23@@Z
+  STRING: ?LoadWeakCellUnregisterToken@TorqueGeneratedExportedMacrosAssembler@internal@v8@@QEAA?AV?$TNode@VHeapObject@internal@v8@@@23@V?$TNode@VWeakCell@internal@v8@@@23@@Z
+  STRING: ?Name@Token@internal@v8@@SAPEBDW4Value@123@@Z
+  STRING: ?name_@Token@internal@v8@@0QBQEBDB
+  STRING: ?Next@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAA?AW4Value@Token@23@XZ
+  STRING: ?next@Scanner@internal@v8@@AEAAAEAUTokenDesc@123@XZ
+  STRING: ?next@Scanner@internal@v8@@AEBAAEBUTokenDesc@123@XZ
+  STRING: ?Next@Scanner@internal@v8@@QEAA?AW4Value@Token@23@XZ
+  STRING: ?next_next@Scanner@internal@v8@@AEBAAEBUTokenDesc@123@XZ
+  STRING: ?ParseAndClassifyIdentifier@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAAPEBVAstRawString@23@W4Value@Token@23@@Z
+  STRING: ?ParseStatementList@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAAXPEAV?$ScopedList@PEAVStatement@internal@v8@@PEAX@23@W4Value@Token@23@@Z
+  STRING: ?peek@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAA?AW4Value@Token@23@XZ
+  STRING: ?peek@Scanner@internal@v8@@QEBA?AW4Value@Token@23@XZ
+  STRING: ?PeekAhead@?$ParserBase@VParser@internal@v8@@@internal@v8@@IEAA?AW4Value@Token@23@XZ
+  STRING: ?PeekAhead@Scanner@internal@v8@@QEAA?AW4Value@Token@23@XZ
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Precedence@Token@internal@v8@@SAHW4Value@123@_N@Z
+  (Truncated; more matches exist.)
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\manual\Manual.txt
+Size: 241 bytes
+Created: 2026-10-10T17:04:23.2162668+02:00
+Modified: 2026-09-11T11:35:08.8939333+02:00
+Extension: .txt
+Attributes: Archive
+SHA256: 696BEF682E9305BA3BDB8F1F88BFA26C54F861CE026A992C7B99B571DD3AF236
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\cef.pak
+Size: 1962462 bytes
+Created: 2026-10-10T17:04:23.2247801+02:00
+Modified: 2025-04-22T17:05:03.6049230+02:00
+Extension: .pak
+Attributes: Archive
+SHA256: C1905D10412B9BDDC75E080F993EE99FA8D23D500B559BC398A25C6DA3A7352F
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\cef_100_percent.pak
+Size: 268557 bytes
+Created: 2026-10-10T17:04:23.2393060+02:00
+Modified: 2025-04-22T17:05:03.6070293+02:00
+Extension: .pak
+Attributes: Archive
+SHA256: 80C5945419567A473409911FCC3838913067E389B7EB7999F6E7A52D9192023C
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\cef_200_percent.pak
+Size: 423198 bytes
+Created: 2026-10-10T17:04:23.2423118+02:00
+Modified: 2025-04-22T17:05:03.6081591+02:00
+Extension: .pak
+Attributes: Archive
+SHA256: A2CD6A92494A148E3AA8B3C3BBBA388B9B9351FEA518F545ECAD48478D40F599
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\chrome_elf.dll
+Size: 818392 bytes
+Created: 2026-10-10T17:04:23.2463120+02:00
+Modified: 2025-04-22T17:05:01.9649590+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 6C0A32851DD2A952DD9F21A78BDD7DE042E813CAC15A2CD612BBA2C7BC115937
+Signature status: Valid
+Signer: E=licenses@lesta.group, CN=LESTA LLC, O=LESTA LLC, STREET="Karl Faberge Square, 8V room 40n", L=Saint Petersburg, S=Saint Petersburg, C=RU, OID.1.3.6.1.4.1.311.60.2.1.2=Saint Petersburg, OID.1.3.6.1.4.1.311.60.2.1.3=RU, SERIALNUMBER=1037816024883, OID.2.5.4.15=Private Organization
+Certificate issuer: CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Chromium
+Description: Chromium
+Company: The Chromium Authors
+File version: 84.0.4147.105
+Product version: 84.0.4147.105
+PE architecture: x86
+PE format: PE32
+PE sections: 10
+String indicator matches: 69
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: ????Y?K?Vector Permutation AES for x86/SSSE3, Mike Hamburg (Stanford University)
+  STRING: ?@http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  STRING: ?3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: @0>0<?:?8?6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: AES for Intel AES-NI, CRYPTOGAMS by <appro@openssl.org>
+  STRING: cast.mdns.socket
+  STRING: CreateRemoteThread
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: LoadLibraryExA
+  STRING: LoadLibraryExW
+  STRING: LoadLibraryW
+  STRING: net/http_network_session_0x?/socket_pool
+  STRING: net/url_request_context/app_request/0x?/cookie_monster
+  STRING: net/url_request_context/app_request/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/app_request/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/app_request/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/extensions/0x?/cookie_monster
+  STRING: net/url_request_context/extensions/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/extensions/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/extensions/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/isolated_media/0x?/cookie_monster
+  STRING: net/url_request_context/isolated_media/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/isolated_media/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/isolated_media/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/main/0x?/cookie_monster
+  STRING: net/url_request_context/main/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/main/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/main/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/main_media/0x?/cookie_monster
+  STRING: net/url_request_context/main_media/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/main_media/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/main_media/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/mirroring/0x?/cookie_monster
+  STRING: net/url_request_context/mirroring/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/mirroring/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/mirroring/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/proxy/0x?/cookie_monster
+  STRING: net/url_request_context/proxy/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/proxy/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/proxy/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/safe_browsing/0x?/cookie_monster
+  STRING: net/url_request_context/safe_browsing/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/safe_browsing/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/safe_browsing/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/system/0x?/cookie_monster
+  STRING: net/url_request_context/system/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/system/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/system/0x?/cookie_monster/tasks_pending_global
+  STRING: net/url_request_context/unknown/0x?/cookie_monster
+  STRING: net/url_request_context/unknown/0x?/cookie_monster/cookies
+  STRING: net/url_request_context/unknown/0x?/cookie_monster/tasks_pending_for_key
+  STRING: net/url_request_context/unknown/0x?/cookie_monster/tasks_pending_global
+  STRING: OpenProcess
+  STRING: passwords
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: startup
+  STRING: sync/0x?/model_type/PASSWORD
+  STRING: sync/0x?/model_type/WIFI_CREDENTIAL
+  STRING: WriteProcessMemory
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\concrt140.dll
+Size: 244032 bytes
+Created: 2026-10-10T17:04:23.2546804+02:00
+Modified: 2016-06-09T21:46:52.0000000+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: F3093CB216BF8ECC8D869E46D8CDA3AACA28A326CB865CCBEF329E1B13ABC834
+Signature status: Valid
+Signer: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Visual Studio® 2015
+Description: Microsoft® Concurrency Runtime Library
+Company: Microsoft Corporation
+File version: 14.00.24210.0 built by: VCTOOLSREL
+Product version: 14.00.24210.0
+PE architecture: x86
+PE format: PE32
+PE sections: 5
+String indicator matches: 26
+  STRING: .?AV_CancellationTokenRegistration@details@Concurrency@@
+  STRING: .?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
+  STRING: ??0_StructuredTaskCollection@details@Concurrency@@QAE@PAV_CancellationTokenState@12@@Z
+  STRING: ??0_TaskCollection@details@Concurrency@@QAE@PAV_CancellationTokenState@12@@Z
+  STRING: ?_CleanupToken@_StructuredTaskCollection@details@Concurrency@@AAEXXZ
+  STRING: ?_NewCollection@_AsyncTaskCollection@details@Concurrency@@SAPAV123@PAV_CancellationTokenState@23@@Z
+  STRING: ?<http://www.microsoft.com/pki/certs/MicrosoftTimeStampPCA.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicCodSigPCA_08-31-2010.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0
+  STRING: ?8http://www.microsoft.com/pki/certs/MicrosoftRootCert.crt0
+  STRING: ?Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0??
+  STRING: ?Ehttp://www.microsoft.com/pkiops/certs/MicCodSigPCA2011_2011-07-08.crt0
+  STRING: 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/docs/primarycps.htm0@
+  STRING: GetProcAddress
+  STRING: http://microsoft.com0
+  STRING: I0G0E?C?A??http://crl.microsoft.com/pki/crl/products/microsoftrootcert.crl0T
+  STRING: LoadLibraryExW
+  STRING: LoadLibraryW
+  STRING: M0K0I?G?E?Chttp://crl.microsoft.com/pki/crl/products/MicrosoftTimeStampPCA.crl0X
+  STRING: M0K0I?G?E?Chttp://www.microsoft.com/pkiops/crl/MicCodSigPCA2011_2011-07-08.crl0a
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_08-31-2010.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z
+  STRING: S0Q0O?M?K?Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\d3dcompiler_47.dll
+Size: 3651288 bytes
+Created: 2026-10-10T17:04:23.2576784+02:00
+Modified: 2025-04-22T17:05:01.9830596+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: D69CB0BF63F92BCDE2BEE15D673F3961154ACCAAF3E59C73D7DE92F0742E7027
+Signature status: Valid
+Signer: E=licenses@lesta.group, CN=LESTA LLC, O=LESTA LLC, STREET="Karl Faberge Square, 8V room 40n", L=Saint Petersburg, S=Saint Petersburg, C=RU, OID.1.3.6.1.4.1.311.60.2.1.2=Saint Petersburg, OID.1.3.6.1.4.1.311.60.2.1.3=RU, SERIALNUMBER=1037816024883, OID.2.5.4.15=Private Organization
+Certificate issuer: CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Microsoft® Windows® Operating System
+Description: Direct3D HLSL Compiler for Redistribution
+Company: Microsoft Corporation
+File version: 10.0.17134.12 (WinBuild.160101.0800)
+Product version: 10.0.17134.12
+PE architecture: x86
+PE format: PE32
+PE sections: 5
+String indicator matches: 57
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: // <internal error> incorrect token offset in debug info
+  STRING: ?@http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  STRING: ?3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: @0>0<?:?8?6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: Bad end token.  DWORD count > 1 given. Expected DWORD count to be 1 for end token.
+  STRING: Bad version token.  DWORD count > 1 given. Expected DWORD count to be 1 for version token.
+  STRING: Bad version token.  It indicates neither a pixel shader nor a vertex shader.
+  STRING: Bit 31 not set in dcl info token!  Aborting validation.
+  STRING: dcl instruction should have exactly 2 parameter tokens.  Aborting validation.
+  STRING: DEBUGMONITORTOKEN
+  STRING: Expected a register token (CBV, SRV, UAV, Sampler), found: '%s'
+  STRING: Expected relative address token.  Aborting validation.
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: IDirect3DShaderValidator9::Instruction called out of order. After end token there should be no more instructions.  Call ::End next.
+  STRING: Instruction length specified for instruction (%d) does not match the token count encountered (%d). Aborting validation.
+  STRING: LoadLibraryExW
+  STRING: Reserved bit(s) set in dcl info token!  Aborting validation.
+  STRING: Reserved bit(s) set in destination parameter token!  Aborting validation.
+  STRING: Reserved bit(s) set in instruction parameter token!  Aborting validation.
+  STRING: Reserved bit(s) set in parameter %d source token!  Aborting validation.
+  STRING: Reserved bit(s) set in relative address token for source parameter %d!  Aborting validation.
+  STRING: Reserved bit(s) set in source %d parameter token!  Aborting validation.
+  STRING: S_FRAMECOOKIE
+  STRING: S_TOKENREF
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: Shader missing end token.
+  STRING: token '%s'
+  STRING: Unexpected token '%s'
+  STRING: Unexpected token '%s' when parsing root signature
+  STRING: unexpected tokens following preprocessor directive
+  STRING: Unrecognized token %s
+  STRING: version token
+  STRING: Version token 0x%x does not represent a pixel library function.
+  STRING: Version token 0x%x does not represent a vertex library function.
+  STRING: Version token 0x%x does not represent a vertex shader.
+  STRING: Version token: 0x%x indicates a pixel shader.  Vertex shader version token must be of the form 0xfffe****.
+  STRING: Version Token: 0x%x indicates a vertex shader.  Pixel shader version token must be of the form 0xffff****.
+  STRING: Version Token: 0x%x is invalid. Pixel shader version token must be of the form 0xffff****. Aborting pixel shader validation.
+  STRING: Version Token: 0x%x is invalid. Vertex shader version token must be of the form 0xfffe****. Aborting vertex shader validation.
+  STRING: Version Token: Pixel shader version ps_2_sw is for software rasterizers only (e.g. the reference device). Aborting shader validation.
+  STRING: Version Token: Pixel shader version ps_3_sw is for use with software rasterizers only (e.g. the reference device). Aborting shader validation.
+  STRING: Version Token: Shader version %s is not supported by device. 
+  STRING: Version Token: Shader version %s is not supported by hardware. 
+  STRING: Version Token: Shader version %s is not supported. Aborting pixel shader validation.
+  STRING: Version Token: Shader version %s is not supported. Aborting vertex shader validation.
+  STRING: Version Token: Shader version %s is not supported. Aborting vertex shader validation. 
+  STRING: Version Token: Vertex shader version vs_2_sw is for software use only. Aborting shader validation.
+  STRING: Version Token: Vertex shader version vs_3_sw is for software use only. Aborting shader validation.
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\dbghelp.dll
+Size: 2232656 bytes
+Created: 2026-10-10T17:04:23.2842163+02:00
+Modified: 2025-06-29T19:00:35.9748517+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 286DDDBB93574E9400E3109947EB380908F547332D0F3139A98C59F0CF93292D
+Signature status: Valid
+Signer: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Windows® Operating System
+Description: Windows Image Helper
+Company: Microsoft Corporation
+File version: 10.0.25291.1000 (WinBuild.160101.0800)
+Product version: 10.0.25291.1000
+PE architecture: x64
+PE format: PE32+
+PE sections: 8
+String indicator matches: 63
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0??
+  STRING: ?Ehttp://www.microsoft.com/pkiops/certs/MicCodSigPCA2011_2011-07-08.crt0
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 3http://www.microsoft.com/pkiops/docs/primarycps.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  STRING: DuplicateToken
+  STRING: GetEventLogInformation
+  STRING: GetProcAddress
+  STRING: GetTokenInformation
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: http://www.digicert.com/CPS0
+  STRING: http://www.microsoft.com0
+  STRING: IsUMgrQueryDefaultAccountTokenPresent
+  STRING: LoadLibraryExA
+  STRING: LoadLibraryExW
+  STRING: M0K0I?G?E?Chttp://www.microsoft.com/pkiops/crl/MicCodSigPCA2011_2011-07-08.crl0a
+  STRING: not a socket
+  STRING: NtOpenProcess
+  STRING: NtOpenProcessToken
+  STRING: NtOpenThreadToken
+  STRING: NtQueryInformationToken
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: OpenProcess
+  STRING: OpenProcessToken
+  STRING: OpenThreadToken
+  STRING: S_FRAMECOOKIE
+  STRING: S_TOKENREF
+  STRING: S0Q0O?M?K?Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: SetThreadToken
+  STRING: SrcSrvBuildTokenFromWebUrlList
+  STRING: SrcSrvEnumTokens
+  STRING: SrcSrvExecTokenByTokenNameW
+  STRING: SrcSrvFreeUrlSourceToken
+  STRING: SrcSrvGetTokenW
+  STRING: SrcSrvResolveTokenVarW
+  STRING: SymEnumSourceFileTokens
+  STRING: SymFromToken
+  STRING: SymFromTokenW
+  STRING: SymGetSourceFileFromToken
+  STRING: SymGetSourceFileFromTokenByTokenName
+  STRING: SymGetSourceFileFromTokenByTokenNameW
+  STRING: SymGetSourceFileFromTokenW
+  STRING: SymGetSourceFileToken
+  STRING: SymGetSourceFileTokenByTokenName
+  STRING: SymGetSourceFileTokenByTokenNameW
+  STRING: SymGetSourceFileTokenW
+  STRING: SymGetSourceVarFromToken
+  STRING: SymGetSourceVarFromTokenW
+  STRING: UMgrQueryDefaultAccountToken
+  STRING: X0V0T?R?P?Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\dx12user.settings
+Size: 6159 bytes
+Created: 2026-10-10T17:04:23.3017432+02:00
+Modified: 2023-05-07T11:02:38.3132960+02:00
+Extension: .settings
+Attributes: Archive
+SHA256: 514395C31A4591B0DC85AAC048C079D90620ABADCF768BFD255E10190BCB92F6
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\dx12user.settings.bak
+Size: 5903 bytes
+Created: 2026-10-10T17:04:23.3027437+02:00
+Modified: 2023-05-01T08:23:57.7034490+02:00
+Extension: .bak
+Attributes: Archive
+SHA256: 3BE39694D0B1D90AB350C461A6B4457F0F2FAACAEE61774E671000144F690CB7
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\icuin57.dll
+Size: 1825920 bytes
+Created: 2026-10-10T17:04:23.3047435+02:00
+Modified: 2025-04-22T17:05:29.2853959+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: B9AACBA212AF23DD206F7F188B5F100B07B4F2E6428AAB9476C5810C7C645527
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: International Components for Unicode
+Description: ICU I18N DLL
+Company: The ICU Project
+File version: 57, 1, 0, 0
+Product version: 57, 1, 0, 0
+PE architecture: x86
+PE format: PE32
+PE sections: 6
+String indicator matches: 31
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?_registerFactory@Transliterator@icu_57@@KAXABVUnicodeString@2@P6APAV12@0TToken@12@@Z1@Z
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?add@AffixPattern@icu_57@@AAEXW4ETokenType@12@E@Z
+  STRING: ?add@AffixPattern@icu_57@@QAEXW4ETokenType@12@@Z
+  STRING: ?AES??t
+  STRING: ?get@FixedDecimal@icu_57@@QBENW4tokenType@2@@Z
+  STRING: ?getTokenLength@AffixPatternIterator@icu_57@@QBEHXZ
+  STRING: ?getTokenType@AffixPatternIterator@icu_57@@QBE?AW4ETokenType@AffixPattern@2@XZ
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?integerToken@Transliterator@icu_57@@SA?ATToken@12@H@Z
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?nextToken@AffixPatternIterator@icu_57@@QAECXZ
+  STRING: ?pointerToken@Transliterator@icu_57@@SA?ATToken@12@PAX@Z
+  STRING: ?registerFactory@Transliterator@icu_57@@SAXABVUnicodeString@2@P6APAV12@0TToken@12@@Z1@Z
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\input.settings
+Size: 91113 bytes
+Created: 2026-10-10T17:04:23.3182513+02:00
+Modified: 2023-05-01T08:23:57.7129490+02:00
+Extension: .settings
+Attributes: Archive
+SHA256: 813DC740FABE35BF5983E550795E9BFA40B888F0B44B16A4DA1C841D2E3DD829
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\lgc_res.dat
+Size: 2551794 bytes
+Created: 2026-10-10T17:04:23.3197604+02:00
+Modified: 2025-06-24T16:39:47.1971858+02:00
+Extension: .dat
+Attributes: Archive
+SHA256: 791C7596FAA04EFA9AC04DE78F98555125F771D724E7ED4D781BBECA084E4DD9
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\libEGL.dll
+Size: 316632 bytes
+Created: 2026-10-10T17:04:23.3412996+02:00
+Modified: 2025-04-22T17:05:02.5552211+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 9931CE23000DBA8F7B9894BBF2D6BDD49DC26525B6D7BAB64641578B169B1926
+Signature status: Valid
+Signer: E=licenses@lesta.group, CN=LESTA LLC, O=LESTA LLC, STREET="Karl Faberge Square, 8V room 40n", L=Saint Petersburg, S=Saint Petersburg, C=RU, OID.1.3.6.1.4.1.311.60.2.1.2=Saint Petersburg, OID.1.3.6.1.4.1.311.60.2.1.3=RU, SERIALNUMBER=1037816024883, OID.2.5.4.15=Private Organization
+Certificate issuer: CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: ANGLE libEGL Dynamic Link Library
+Description: ANGLE libEGL Dynamic Link Library
+Company: 
+File version: 2.1.0.unknown hash
+Product version: 2.1.0.unknown hash
+PE architecture: x86
+PE format: PE32
+PE sections: 8
+String indicator matches: 21
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: ?@http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  STRING: ?3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: @0>0<?:?8?6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: EGL_GetProcAddress
+  STRING: EGL_SwapBuffersWithFrameTokenANGLE
+  STRING: eglGetProcAddress
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: LoadLibraryA
+  STRING: LoadLibraryExA
+  STRING: LoadLibraryExW
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\libGLESv2.dll
+Size: 6929112 bytes
+Created: 2026-10-10T17:04:23.3452997+02:00
+Modified: 2025-04-22T17:05:02.5879727+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 3737C48C1D190F99CC57958C292ACB12E693F536FD538AE4873D8E384FF43805
+Signature status: Valid
+Signer: E=licenses@lesta.group, CN=LESTA LLC, O=LESTA LLC, STREET="Karl Faberge Square, 8V room 40n", L=Saint Petersburg, S=Saint Petersburg, C=RU, OID.1.3.6.1.4.1.311.60.2.1.2=Saint Petersburg, OID.1.3.6.1.4.1.311.60.2.1.3=RU, SERIALNUMBER=1037816024883, OID.2.5.4.15=Private Organization
+Certificate issuer: CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: ANGLE libGLESv2 Dynamic Link Library
+Description: ANGLE libGLESv2 Dynamic Link Library
+Company: 
+File version: 2.1.0.unknown hash
+Product version: 2.1.0.unknown hash
+PE architecture: x86
+PE format: PE32
+PE sections: 8
+String indicator matches: 119
+  STRING: #version: versions before 150 do not allow a profile token
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: ?@http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  STRING: ?3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: @0>0<?:?8?6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  STRING: _EGL_GetProcAddress@4
+  STRING: _EGL_SwapBuffersWithFrameTokenANGLE@16
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: <bad token>
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 7?7?Reading a token: 
+  STRING: access is not one of the supported tokens.
+  STRING: bad tokens following profile -- expected newline
+  STRING: combined token is invalid
+  STRING: combined tokens are too long
+  STRING: D3D Compiler LoadLibrary failed. GetLastError=
+  STRING: EGL_ANGLE_swap_buffers_with_frame_token is not available.
+  STRING: EGL_GetProcAddress
+  STRING: EGL_SwapBuffersWithFrameTokenANGLE
+  STRING: eglGetProcAddress
+  STRING: eglSwapBuffersWithFrameTokenANGLE
+  STRING: extension directive must occur before any non-preprocessor tokens in ESSL1
+  STRING: extension directive must occur before any non-preprocessor tokens in ESSL3
+  STRING: extension directive should occur before any non-preprocessor tokens
+  STRING: extra tokens
+  STRING: extra tokens -- expected newline
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: GPU.ANGLE.D3DCompilerLoadLibraryResult
+  STRING: http://anglebug.com/1085
+  STRING: http://anglebug.com/1452
+  STRING: http://anglebug.com/1512
+  STRING: http://anglebug.com/1637
+  STRING: http://anglebug.com/1936
+  STRING: http://anglebug.com/2046
+  STRING: http://anglebug.com/2152
+  STRING: http://anglebug.com/2162
+  STRING: http://anglebug.com/2273
+  STRING: http://anglebug.com/2514
+  STRING: http://anglebug.com/2517
+  STRING: http://anglebug.com/2703
+  STRING: http://anglebug.com/2727
+  STRING: http://anglebug.com/2970
+  STRING: http://anglebug.com/2978
+  STRING: http://anglebug.com/3016
+  STRING: http://anglebug.com/3027
+  STRING: http://anglebug.com/3045
+  STRING: http://anglebug.com/3078
+  STRING: http://anglebug.com/3153
+  STRING: http://anglebug.com/3205
+  STRING: http://anglebug.com/3206
+  STRING: http://anglebug.com/3243
+  STRING: http://anglebug.com/3246
+  STRING: http://anglebug.com/3452
+  STRING: http://anglebug.com/3498
+  STRING: http://anglebug.com/3502
+  STRING: http://anglebug.com/3623, http://anglebug.com/3624, http://anglebug.com/3625
+  STRING: http://anglebug.com/3729
+  STRING: http://anglebug.com/3859
+  STRING: http://anglebug.com/3997
+  STRING: http://anglebug.com/4214
+  STRING: http://anglebug.com/4267
+  STRING: http://anglebug.com/4384
+  STRING: http://anglebug.com/4405
+  STRING: http://anglebug.com/4428
+  STRING: http://anglebug.com/4442
+  STRING: http://anglebug.com/4490
+  STRING: http://anglebug.com/482
+  STRING: http://crbug.com/110263
+  STRING: http://crbug.com/308366
+  STRING: http://crbug.com/398694
+  STRING: http://crbug.com/403957
+  STRING: http://crbug.com/565179
+  STRING: http://crbug.com/642227
+  STRING: http://crbug.com/642605
+  STRING: http://crbug.com/644669
+  STRING: http://crbug.com/650547
+  STRING: http://crbug.com/672380
+  STRING: http://crbug.com/709351
+  STRING: http://crbug.com/772651
+  STRING: http://crbug.com/797243
+  STRING: http://crbug.com/809422
+  STRING: http://crbug.com/830046
+  STRING: http://crbug.com/849576
+  STRING: http://crbug.com/883276
+  STRING: http://crbug.com/927470
+  STRING: http://crbug.com/941620
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: https://crbug.com/1046462
+  STRING: https://crbug.com/593024
+  STRING: https://crbug.com/650547
+  STRING: https://crbug.com/655534
+  STRING: https://crbug.com/705865
+  STRING: https://crbug.com/710443
+  STRING: Illegal to have non-comment, non-whitespace tokens before #version
+  (Truncated; more matches exist.)
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\msvcp140.dll
+Size: 440120 bytes
+Created: 2026-10-10T17:04:23.3900240+02:00
+Modified: 2016-06-09T21:46:52.0000000+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 9C1DC36D319382E1501CDEAAE36BAD5B820EA84393EF6149E377D2FB2FC361A5
+Signature status: Valid
+Signer: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Visual Studio® 2015
+Description: Microsoft® C Runtime Library
+Company: Microsoft Corporation
+File version: 14.00.24210.0 built by: VCTOOLSREL
+Product version: 14.00.24210.0
+PE architecture: x86
+PE format: PE32
+PE sections: 6
+String indicator matches: 20
+  STRING: ?<http://www.microsoft.com/pki/certs/MicrosoftTimeStampPCA.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicCodSigPCA_08-31-2010.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0
+  STRING: ?8http://www.microsoft.com/pki/certs/MicrosoftRootCert.crt0
+  STRING: ?Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0??
+  STRING: ?Ehttp://www.microsoft.com/pkiops/certs/MicCodSigPCA2011_2011-07-08.crt0
+  STRING: 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/docs/primarycps.htm0@
+  STRING: GetProcAddress
+  STRING: http://microsoft.com0
+  STRING: I0G0E?C?A??http://crl.microsoft.com/pki/crl/products/microsoftrootcert.crl0T
+  STRING: LoadLibraryExA
+  STRING: M0K0I?G?E?Chttp://crl.microsoft.com/pki/crl/products/MicrosoftTimeStampPCA.crl0X
+  STRING: M0K0I?G?E?Chttp://www.microsoft.com/pkiops/crl/MicCodSigPCA2011_2011-07-08.crl0a
+  STRING: not a socket
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_08-31-2010.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z
+  STRING: S0Q0O?M?K?Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\profile.settings
+Size: 102 bytes
+Created: 2026-10-10T17:04:23.3945368+02:00
+Modified: 2023-05-07T02:30:56.8842731+02:00
+Extension: .settings
+Attributes: Archive
+SHA256: A095C83DFCD9371E7AAEE0561357199EAEFD8B65111B694AA940D84EF42BD508
+Signature status: UnknownError
+Signer: 
+Certificate issuer: 
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5Core.dll
+Size: 4182144 bytes
+Created: 2026-10-10T17:04:23.3965352+02:00
+Modified: 2025-04-22T17:05:29.4487326+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 10DC044F64DC629DB3FB91249B181B157CEFC2274C6F971FD1DE2633DCE0DDA1
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 76
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: .?AVQSocketNotifier@@
+  STRING: .?AVQSocketNotifierPrivate@@
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ??_7QSocketNotifier@@6B@
+  STRING: ??0QSocketNotifier@@QAE@HW4Type@0@PAVQObject@@@Z
+  STRING: ??1QSocketNotifier@@UAE@XZ
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?activated@QSocketNotifier@@QAEXHUQPrivateSignal@1@@Z
+  STRING: ?d_func@QSocketNotifier@@AAEPAVQSocketNotifierPrivate@@XZ
+  STRING: ?d_func@QSocketNotifier@@ABEPBVQSocketNotifierPrivate@@XZ
+  STRING: ?doUnregisterSocketNotifier@QEventDispatcherWin32@@IAEXPAVQSocketNotifier@@@Z
+  STRING: ?encodedPassword@QUrl@@QBE?AVQByteArray@@XZ
+  STRING: ?event@QSocketNotifier@@MAE_NPAVQEvent@@@Z
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?isEnabled@QSocketNotifier@@QBE_NXZ
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?metaObject@QSocketNotifier@@UBEPBUQMetaObject@@XZ
+  STRING: ?password@QUrl@@QBE?AVQString@@V?$QFlags@W4ComponentFormattingOption@QUrl@@@@@Z
+  STRING: ?postActivateSocketNotifiers@QEventDispatcherWin32Private@@QAEXXZ
+  STRING: ?qt_metacall@QSocketNotifier@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+  STRING: ?qt_metacast@QSocketNotifier@@UAEPAXPBD@Z
+  STRING: ?qt_static_metacall@QSocketNotifier@@CAXPAVQObject@@W4Call@QMetaObject@@HPAPAX@Z
+  STRING: ?readNext@QXmlStreamReader@@QAE?AW4TokenType@1@XZ
+  STRING: ?registerSocketNotifier@QEventDispatcherWin32@@UAEXPAVQSocketNotifier@@@Z
+  STRING: ?setEnabled@QSocketNotifier@@QAEX_N@Z
+  STRING: ?setEncodedPassword@QUrl@@QAEXABVQByteArray@@@Z
+  STRING: ?setPassword@QUrl@@QAEXABVQString@@W4ParsingMode@1@@Z
+  STRING: ?socket@QSocketNotifier@@QBEHXZ
+  STRING: ?startupHook@QStateMachinePrivate@@UAEXXZ
+  STRING: ?staticMetaObject@QSocketNotifier@@2UQMetaObject@@B
+  STRING: ?tokenString@QXmlStreamReader@@QBE?AVQString@@XZ
+  STRING: ?tokenType@QXmlStreamReader@@QBE?AW4TokenType@1@XZ
+  STRING: ?tr@QSocketNotifier@@SA?AVQString@@PBD0H@Z
+  STRING: ?trUtf8@QSocketNotifier@@SA?AVQString@@PBD0H@Z
+  STRING: ?type@QSocketNotifier@@QBE?AW4Type@1@XZ
+  STRING: ?unregisterSocketNotifier@QEventDispatcherWin32@@UAEXPAVQSocketNotifier@@@Z
+  STRING: ?writeCurrentToken@QXmlStreamWriter@@QAEXABVQXmlStreamReader@@@Z
+  STRING: _q_startupNotification
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: GetTokenInformation
+  STRING: gQSocketNotifier: Invalid socket specified
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: http://www.w3.org/2000/xmlns/
+  STRING: http://www.w3.org/XML/1998/namespace
+  STRING: LoadLibraryA
+  STRING: LoadLibraryW
+  STRING: loginto.me
+  STRING: NMTOKEN
+  STRING: NMTOKENS
+  STRING: NoToken
+  STRING: OpenProcess
+  STRING: OpenProcessToken
+  STRING: QSocketNotifier
+  STRING: QSocketNotifier: Can only be used with threads started with QThread
+  STRING: QSocketNotifier: Multiple socket notifiers for same socket %d and type %s
+  STRING: QSocketNotifier: Socket notifiers cannot be enabled or disabled from another thread
+  STRING: qt_startup_hook
+  STRING: QTcpSocketAPI: WinSock v2.0 initialization failed.
+  STRING: QXmlStreamWriter: writeCurrentToken() with invalid state.
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: socket
+  STRING: yaese.okinawa.jp
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5Gui.dll
+Size: 3674752 bytes
+Created: 2026-10-10T17:04:23.4260767+02:00
+Modified: 2025-04-22T17:05:29.5633364+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: E808387B4A915939B85CE6D761F68FAF8F9382E9339E6F79C43EAF0798B09672
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 8
+String indicator matches: 35
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?getProcAddress@QOpenGLContext@@QBEP6AXXZABVQByteArray@@@Z
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?lexemUntil@Parser@QCss@@QAE?AVQString@@W4TokenType@2@@Z
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?lookup@Parser@QCss@@QBE?AW4TokenType@2@XZ
+  STRING: ?next@Parser@QCss@@QAE?AW4TokenType@2@XZ
+  STRING: ?next@Parser@QCss@@QAE_NW4TokenType@2@@Z
+  STRING: ?passwordMaskCharacter@QStyleHints@@QBE?AVQChar@@XZ
+  STRING: ?passwordMaskDelay@QStyleHints@@QBEHXZ
+  STRING: ?test@Parser@QCss@@QAE_NW4TokenType@2@@Z
+  STRING: ?testTokenAndEndsWith@Parser@QCss@@QAE_NW4TokenType@2@VQLatin1String@@@Z
+  STRING: ?until@Parser@QCss@@QAE_NW4TokenType@2@0@Z
+  STRING: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: http://www.w3.org/1999/xlink
+  STRING: passwordEdit
+  STRING: passwordMaskCharacter
+  STRING: passwordMaskDelay
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5Multimedia.dll
+Size: 595072 bytes
+Created: 2026-10-10T17:04:23.4521226+02:00
+Modified: 2025-04-22T17:05:29.6038784+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 19774CAB3C6E6AD24FF0EE53C107EFA9E01FD4CFAC42A7487FE4501AD22EEC19
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 20
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5Network.dll
+Size: 835712 bytes
+Created: 2026-10-10T17:04:23.4571229+02:00
+Modified: 2025-04-22T17:05:29.6171837+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 75B82E6048F5C3064FF725C945ADE59D251141F2F863C9427C1E57C2AB5811B0
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 609
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: .?AV?$QVector@VQNetworkAuthenticationCredential@@@@
+  STRING: .?AVQAbstractSocket@@
+  STRING: .?AVQAbstractSocketEngine@@
+  STRING: .?AVQAbstractSocketEnginePrivate@@
+  STRING: .?AVQAbstractSocketEngineReceiver@@
+  STRING: .?AVQAbstractSocketPrivate@@
+  STRING: .?AVQHttpSocketEngine@@
+  STRING: .?AVQHttpSocketEngineHandler@@
+  STRING: .?AVQHttpSocketEnginePrivate@@
+  STRING: .?AVQLocalSocket@@
+  STRING: .?AVQLocalSocketPrivate@@
+  STRING: .?AVQNativeSocketEngine@@
+  STRING: .?AVQNativeSocketEnginePrivate@@
+  STRING: .?AVQNetworkCookieJar@@
+  STRING: .?AVQNetworkCookieJarPrivate@@
+  STRING: .?AVQSocketEngineHandler@@
+  STRING: .?AVQSocketNotifier@@
+  STRING: .?AVQSocks5PasswordAuthenticator@@
+  STRING: .?AVQSocks5SocketEngine@@
+  STRING: .?AVQSocks5SocketEngineHandler@@
+  STRING: .?AVQSocks5SocketEnginePrivate@@
+  STRING: .?AVQSslSocket@@
+  STRING: .?AVQSslSocketBackendPrivate@@
+  STRING: .?AVQSslSocketPrivate@@
+  STRING: .?AVQTcpSocket@@
+  STRING: .?AVQTcpSocketPrivate@@
+  STRING: .?AVQUdpSocket@@
+  STRING: .?AVQUdpSocketPrivate@@
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ??_7QAbstractSocket@@6B@
+  STRING: ??_7QLocalSocket@@6B@
+  STRING: ??_7QNetworkCookieJar@@6B@
+  STRING: ??_7QSslSocket@@6B@
+  STRING: ??_7QTcpSocket@@6B@
+  STRING: ??_7QUdpSocket@@6B@
+  STRING: ??_FQLocalSocket@@QAEXXZ
+  STRING: ??_FQNetworkCookie@@QAEXXZ
+  STRING: ??_FQNetworkCookieJar@@QAEXXZ
+  STRING: ??_FQSslSocket@@QAEXXZ
+  STRING: ??_FQTcpSocket@@QAEXXZ
+  STRING: ??_FQUdpSocket@@QAEXXZ
+  STRING: ??0QAbstractSocket@@IAE@W4SocketType@0@AAVQAbstractSocketPrivate@@PAVQObject@@@Z
+  STRING: ??0QAbstractSocket@@QAE@W4SocketType@0@PAVQObject@@@Z
+  STRING: ??0QLocalSocket@@QAE@PAVQObject@@@Z
+  STRING: ??0QNetworkCookie@@QAE@ABV0@@Z
+  STRING: ??0QNetworkCookie@@QAE@ABVQByteArray@@0@Z
+  STRING: ??0QNetworkCookieJar@@QAE@PAVQObject@@@Z
+  STRING: ??0QSocketNotifier@@QAE@HW4Type@0@PAVQObject@@@Z
+  STRING: ??0QSslSocket@@QAE@PAVQObject@@@Z
+  STRING: ??0QTcpSocket@@IAE@AAVQTcpSocketPrivate@@PAVQObject@@@Z
+  STRING: ??0QTcpSocket@@IAE@W4SocketType@QAbstractSocket@@AAVQTcpSocketPrivate@@PAVQObject@@@Z
+  STRING: ??0QTcpSocket@@QAE@PAVQObject@@@Z
+  STRING: ??0QUdpSocket@@QAE@PAVQObject@@@Z
+  STRING: ??1QAbstractSocket@@UAE@XZ
+  STRING: ??1QLocalSocket@@UAE@XZ
+  STRING: ??1QNetworkCookie@@QAE@XZ
+  STRING: ??1QNetworkCookieJar@@UAE@XZ
+  STRING: ??1QSocketNotifier@@UAE@XZ
+  STRING: ??1QSslSocket@@UAE@XZ
+  STRING: ??1QTcpSocket@@UAE@XZ
+  STRING: ??1QUdpSocket@@UAE@XZ
+  STRING: ??4QNetworkCookie@@QAEAAV0@$$QAV0@@Z
+  STRING: ??4QNetworkCookie@@QAEAAV0@ABV0@@Z
+  STRING: ??6@YA?AVQDebug@@V0@ABVQNetworkCookie@@@Z
+  STRING: ??6@YA?AVQDebug@@V0@W4LocalSocketError@QLocalSocket@@@Z
+  STRING: ??6@YA?AVQDebug@@V0@W4LocalSocketState@QLocalSocket@@@Z
+  STRING: ??6@YA?AVQDebug@@V0@W4SocketError@QAbstractSocket@@@Z
+  STRING: ??6@YA?AVQDebug@@V0@W4SocketState@QAbstractSocket@@@Z
+  STRING: ??8QNetworkCookie@@QBE_NABV0@@Z
+  STRING: ??9QNetworkCookie@@QBE_NABV0@@Z
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?abort@QAbstractSocket@@QAEXXZ
+  STRING: ?abort@QLocalSocket@@QAEXXZ
+  STRING: ?abort@QSslSocket@@QAEXXZ
+  STRING: ?acceptError@QTcpServer@@QAEXW4SocketError@QAbstractSocket@@@Z
+  STRING: ?addCaCertificate@QSslSocket@@QAEXABVQSslCertificate@@@Z
+  STRING: ?addCaCertificates@QSslSocket@@QAE_NABVQString@@W4EncodingFormat@QSsl@@W4PatternSyntax@QRegExp@@@Z
+  STRING: ?addCaCertificates@QSslSocket@@QAEXABV?$QList@VQSslCertificate@@@@@Z
+  STRING: ?addDefaultCaCertificate@QSslSocket@@SAXABVQSslCertificate@@@Z
+  STRING: ?addDefaultCaCertificates@QSslSocket@@SA_NABVQString@@W4EncodingFormat@QSsl@@W4PatternSyntax@QRegExp@@@Z
+  STRING: ?addDefaultCaCertificates@QSslSocket@@SAXABV?$QList@VQSslCertificate@@@@@Z
+  STRING: ?addPendingConnection@QTcpServer@@IAEXPAVQTcpSocket@@@Z
+  STRING: ?allCookies@QNetworkCookieJar@@IBE?AV?$QList@VQNetworkCookie@@@@XZ
+  STRING: ?atEnd@QAbstractSocket@@UBE_NXZ
+  STRING: ?atEnd@QSslSocket@@UBE_NXZ
+  STRING: ?bind@QAbstractSocket@@QAE_NABVQHostAddress@@GV?$QFlags@W4BindFlag@QAbstractSocket@@@@@Z
+  STRING: ?bind@QAbstractSocket@@QAE_NGV?$QFlags@W4BindFlag@QAbstractSocket@@@@@Z
+  STRING: ?bytesAvailable@QAbstractSocket@@UBE_JXZ
+  STRING: ?bytesAvailable@QLocalSocket@@UBE_JXZ
+  STRING: ?bytesAvailable@QSslSocket@@UBE_JXZ
+  STRING: ?bytesToWrite@QAbstractSocket@@UBE_JXZ
+  STRING: ?bytesToWrite@QLocalSocket@@UBE_JXZ
+  (Truncated; more matches exist.)
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5OpenGL.dll
+Size: 275584 bytes
+Created: 2026-10-10T17:04:23.4646361+02:00
+Modified: 2025-04-22T17:05:29.6261758+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 885A4134AE48D5E6FD57AFD79C56D74D5D33F267B6D937BF84459F2B85BFED03
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 22
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?getProcAddress@QGLContext@@QBEP6AXXZABVQString@@@Z
+  STRING: ?getProcAddress@QOpenGLContext@@QBEP6AXXZABVQByteArray@@@Z
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5PrintSupport.dll
+Size: 279168 bytes
+Created: 2026-10-10T17:04:23.4681417+02:00
+Modified: 2025-04-22T17:05:29.6315017+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: EE02D72B4DBE93F2FBC48B89D53F9B85E45A3D89D1FE8A9F6426DAE6B5A0C972
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 20
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5Qml.dll
+Size: 2523264 bytes
+Created: 2026-10-10T17:04:23.4711707+02:00
+Modified: 2025-04-22T17:05:29.6457172+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 666691B09C703818812F314B444CA5A65299E32FA593B0069ECA6D107115A4ED
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 40
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?readNext@QXmlStreamReader@@QAE?AW4TokenType@1@XZ
+  STRING: ?scanToken@Lexer@QQmlJS@@AAEHXZ
+  STRING: ?setPassword@QUrl@@QAEXABVQString@@W4ParsingMode@1@@Z
+  STRING: ?tokenEndColumn@Lexer@QQmlJS@@QBEHXZ
+  STRING: ?tokenEndLine@Lexer@QQmlJS@@QBEHXZ
+  STRING: ?tokenKind@Lexer@QQmlJS@@QBEHXZ
+  STRING: ?tokenLength@Lexer@QQmlJS@@QBEHXZ
+  STRING: ?tokenOffset@Lexer@QQmlJS@@QBEHXZ
+  STRING: ?tokenSpell@Lexer@QQmlJS@@QBE?AVQStringRef@@XZ
+  STRING: ?tokenStartColumn@Lexer@QQmlJS@@QBEHXZ
+  STRING: ?tokenStartLine@Lexer@QQmlJS@@QBEHXZ
+  STRING: ?tokenText@Lexer@QQmlJS@@QBE?AVQString@@XZ
+  STRING: ?tokenValue@Lexer@QQmlJS@@QBENXZ
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: COOKIE
+  STRING: COOKIE2
+  STRING: Expected token `%1'
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: set-cookie
+  STRING: set-cookie2
+  STRING: unexpected token
+  STRING: Unexpected token `%1'
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5Quick.dll
+Size: 2588288 bytes
+Created: 2026-10-10T17:04:23.4891860+02:00
+Modified: 2025-04-22T17:05:29.6803336+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 7F4F352AA1552DEE1C89A0DC3C562A5D85EC1A263FBB79E3E85EE7032B5BDA3A
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 45
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?cancelPasswordEchoTimer@QQuickTextInputPrivate@@QAEXXZ
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?passwordCharacter@QQuickTextInput@@QBE?AVQString@@XZ
+  STRING: ?passwordCharacterChanged@QQuickTextInput@@QAEXXZ
+  STRING: ?passwordEdit@QQuickAccessibleAttached@@QBE_NXZ
+  STRING: ?passwordEditChanged@QQuickAccessibleAttached@@QAEX_N@Z
+  STRING: ?passwordMaskCharacter@QStyleHints@@QBE?AVQChar@@XZ
+  STRING: ?passwordMaskDelay@QQuickTextInput@@QBEHXZ
+  STRING: ?passwordMaskDelay@QStyleHints@@QBEHXZ
+  STRING: ?passwordMaskDelayChanged@QQuickTextInput@@QAEXH@Z
+  STRING: ?resetPasswordMaskDelay@QQuickTextInput@@QAEXXZ
+  STRING: ?set_passwordEdit@QQuickAccessibleAttached@@QAEX_N@Z
+  STRING: ?setPasswordCharacter@QQuickTextInput@@QAEXABVQString@@@Z
+  STRING: ?setPasswordMaskDelay@QQuickTextInput@@QAEXH@Z
+  STRING: ?updatePasswordEchoEditing@QQuickTextInputPrivate@@QAEX_N@Z
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: Context2D: Duplicate token 
+  STRING: Context2D: Duplicate token "normal" found in font string.
+  STRING: Context2D: Invalid or misplaced token 
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: Password
+  STRING: passwordCharacter
+  STRING: passwordCharacterChanged
+  STRING: PasswordEchoOnEdit
+  STRING: passwordEdit
+  STRING: passwordEditChanged
+  STRING: passwordMaskDelay
+  STRING: passwordMaskDelayChanged
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5Svg.dll
+Size: 267392 bytes
+Created: 2026-10-10T17:04:23.5067352+02:00
+Modified: 2025-04-22T17:05:29.7168528+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: DCE1ACD44A4E6942CE4651F04EFEFAAF6FB29B3A383FAFCA0A1E8583A5583E55
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 6
+String indicator matches: 43
+  STRING:  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?next@Parser@QCss@@QAE?AW4TokenType@2@XZ
+  STRING: ?readNext@QXmlStreamReader@@QAE?AW4TokenType@1@XZ
+  STRING: ?test@Parser@QCss@@QAE_NW4TokenType@2@@Z
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#ConditionalProcessing
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#ConditionalProcessingAttribute
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#CoreAttribute
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#Extensibility
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#ExternalResourcesRequiredAttribute
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#Font
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#Gradient
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#GraphicsAttribute
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#Hyperlinking
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#Image
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#OpacityAttribute
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#PaintAttribute
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#Prefetch
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#Shape
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#SolidColor
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#Structure
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#SVG
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#SVG-static
+  STRING: http://www.w3.org/Graphics/SVG/feature/1.2/#XlinkAttribute
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYhttp://www.w3.org/Graphics/SVG/feature/1.2/#Text
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5Widgets.dll
+Size: 4445824 bytes
+Created: 2026-10-10T17:04:23.5097301+02:00
+Modified: 2025-04-22T17:05:29.7464966+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 200F8FA3C984B2ED51500E029889A550D88E7ECB3B2E3851A3E4CAD261540061
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 37
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?cancelPasswordEchoTimer@QWidgetLineControl@@AAEXXZ
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?passwordCharacter@QWidgetLineControl@@QBE?AVQChar@@XZ
+  STRING: ?passwordEchoEditing@QWidgetLineControl@@QBE_NXZ
+  STRING: ?passwordMaskDelay@QWidgetLineControl@@QBEHXZ
+  STRING: ?setPasswordCharacter@QWidgetLineControl@@QAEXVQChar@@@Z
+  STRING: ?setPasswordMaskDelay@QWidgetLineControl@@QAEXH@Z
+  STRING: ?updatePasswordEchoEditing@QWidgetLineControl@@QAEX_N@Z
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: <p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.</p><p>Qt is available under three different licensing options designed to accommodate the needs of our various users.</p><p>Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.</p><p>Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.</p><p>Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.</p><p>Please see <a href="http://%2/">%2</a> for an overview of Qt licensing.</p><p>Copyright (C) %1 The Qt Company Ltd and other contributors.</p><p>Qt and the Qt logo are trademarks of The Qt Company Ltd.</p><p>Qt is The Qt Company Ltd product developed as an open source project. See <a href="http://%3/">%3</a> for more information.</p>
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: lineedit-password-character
+  STRING: lineedit-password-mask-delay
+  STRING: OpenProcess
+  STRING: Password
+  STRING: PasswordEchoOnEdit
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: SH_LineEdit_PasswordCharacter
+  STRING: SH_LineEdit_PasswordMaskDelay
+  STRING: SP_FileDialogInfoView
+  STRING: VirtualAllocEx
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\Qt5WinExtras.dll
+Size: 247936 bytes
+Created: 2026-10-10T17:04:23.5407834+02:00
+Modified: 2025-04-22T17:05:29.7839162+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 28EBAB641F5D309F400D55A331EF83C9BB2847452B775A3071A490B251FB99DA
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Qt5
+Description: C++ application development framework.
+Company: The Qt Company Ltd
+File version: 5.6.3.0
+Product version: 5.6.3.0
+PE architecture: x86
+PE format: PE32
+PE sections: 6
+String indicator matches: 21
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: LoadLibraryW
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\renderer.dll
+Size: 812248 bytes
+Created: 2026-10-10T17:04:23.5437888+02:00
+Modified: 2025-06-24T16:40:50.1407325+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 8D0369DFF70928756649E807B3AA733CB2E0123293F1D68C0940E07BBC659B87
+Signature status: Valid
+Signer: E=licenses@lesta.group, CN=LESTA LLC, O=LESTA LLC, STREET="Karl Faberge Square, 8V room 40n", L=Saint Petersburg, S=Saint Petersburg, C=RU, OID.1.3.6.1.4.1.311.60.2.1.2=Saint Petersburg, OID.1.3.6.1.4.1.311.60.2.1.3=RU, SERIALNUMBER=1037816024883, OID.2.5.4.15=Private Organization
+Certificate issuer: CN=GlobalSign GCC R45 EV CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Lesta Game Center Renderer
+Description: Lesta Game Center Renderer
+Company: ©2022-2025 Lesta Games Agency, LLC
+File version: 25.02.01.0839
+Product version: 25.02.01.0839
+PE architecture: x86
+PE format: PE32
+PE sections: 7
+String indicator matches: 22
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: .?AUbase_token@noncopyable_@boost@@
+  STRING: ::GetProcAddress(wgc_renderer_handle, "OnGPUProcessHang")
+  STRING: ?@http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  STRING: ?3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: @0>0<?:?8?6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: <assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1"><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><application xmlns="urn:schemas-microsoft-com:asm.v3"><windowsSettings><dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware></windowsSettings></application><ms_compatibility:compatibility xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" xmlns="urn:schemas-microsoft-com:compatibility.v1"><ms_compatibility:application xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1"><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility="urn:schemas-microsoft-com:compatibility.v1" Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></ms_compatibility:supportedOS></ms_compatibility:application></ms_compatibility:compatibility></assembly>
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: LoadLibraryW
+  STRING: Localization::`anonymous-namespace'::isTextToken
+  STRING: Localization::`anonymous-namespace'::parseArgToken
+  STRING: Localization::`anonymous-namespace'::parseTextToken
+  STRING: OpenProcess
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\sdkencryptedappticket.dll
+Size: 636040 bytes
+Created: 2026-10-10T17:04:23.5502981+02:00
+Modified: 2025-04-22T16:59:13.1585315+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: BC2CAF9FC5F60241E3E212A3D77830F5A505ACFA4E801C6079123B06610231DD
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: 
+Description: 
+Company: 
+File version: 
+Product version: 
+PE architecture: x86
+PE format: PE32
+PE sections: 4
+String indicator matches: 30
+  STRING:  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+  STRING:  Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
+  STRING:  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: ..\src\google\protobuf\io\tokenizer.cc
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ???????????Q??PQ??P~AeS~AeS
+  STRING: ?????1?_^[]?AES for x86, CRYPTOGAMS by <appro@openssl.org>
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: AES part of OpenSSL 1.0.2j  26 Sep 2016
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: LoadLibraryExW
+  STRING: not a socket
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\ssleay32.dll
+Size: 290952 bytes
+Created: 2026-10-10T17:04:23.5563017+02:00
+Modified: 2025-04-22T17:05:21.5998066+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 2787BB63DD7B8B284C8656AD44A11CF1D754DAE476794324A0B4E7EB79CA7C21
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: The OpenSSL Toolkit
+Description: OpenSSL Shared Library
+Company: The OpenSSL Project, http://www.openssl.org/
+File version: 1.0.2u
+Product version: 1.0.2u
+PE architecture: x86
+PE format: PE32
+PE sections: 6
+String indicator matches: 111
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: ADH-AES128-GCM-SHA256
+  STRING: ADH-AES128-SHA
+  STRING: ADH-AES128-SHA256
+  STRING: ADH-AES256-GCM-SHA384
+  STRING: ADH-AES256-SHA
+  STRING: ADH-AES256-SHA256
+  STRING: AECDH-AES128-SHA
+  STRING: AECDH-AES256-SHA
+  STRING: AES(128)
+  STRING: AES(256)
+  STRING: AES128
+  STRING: AES-128-CBC
+  STRING: AES-128-CBC-HMAC-SHA1
+  STRING: AES-128-CBC-HMAC-SHA256
+  STRING: AES128-GCM-SHA256
+  STRING: AES128-SHA
+  STRING: AES128-SHA256
+  STRING: AES256
+  STRING: AES-256-CBC
+  STRING: AES-256-CBC-HMAC-SHA1
+  STRING: AES-256-CBC-HMAC-SHA256
+  STRING: AES256-GCM-SHA384
+  STRING: AES256-SHA
+  STRING: AES256-SHA256
+  STRING: AESGCM
+  STRING: AESGCM(128)
+  STRING: AESGCM(256)
+  STRING: cookie mismatch
+  STRING: DH-DSS-AES128-GCM-SHA256
+  STRING: DH-DSS-AES128-SHA
+  STRING: DH-DSS-AES128-SHA256
+  STRING: DH-DSS-AES256-GCM-SHA384
+  STRING: DH-DSS-AES256-SHA
+  STRING: DH-DSS-AES256-SHA256
+  STRING: DHE-DSS-AES128-GCM-SHA256
+  STRING: DHE-DSS-AES128-SHA
+  STRING: DHE-DSS-AES128-SHA256
+  STRING: DHE-DSS-AES256-GCM-SHA384
+  STRING: DHE-DSS-AES256-SHA
+  STRING: DHE-DSS-AES256-SHA256
+  STRING: DHE-RSA-AES128-GCM-SHA256
+  STRING: DHE-RSA-AES128-SHA
+  STRING: DHE-RSA-AES128-SHA256
+  STRING: DHE-RSA-AES256-GCM-SHA384
+  STRING: DHE-RSA-AES256-SHA
+  STRING: DHE-RSA-AES256-SHA256
+  STRING: DH-RSA-AES128-GCM-SHA256
+  STRING: DH-RSA-AES128-SHA
+  STRING: DH-RSA-AES128-SHA256
+  STRING: DH-RSA-AES256-GCM-SHA384
+  STRING: DH-RSA-AES256-SHA
+  STRING: DH-RSA-AES256-SHA256
+  STRING: ECDH-ECDSA-AES128-GCM-SHA256
+  STRING: ECDH-ECDSA-AES128-SHA
+  STRING: ECDH-ECDSA-AES128-SHA256
+  STRING: ECDH-ECDSA-AES256-GCM-SHA384
+  STRING: ECDH-ECDSA-AES256-SHA
+  STRING: ECDH-ECDSA-AES256-SHA384
+  STRING: ECDHE-ECDSA-AES128-GCM-SHA256
+  STRING: ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384
+  STRING: ECDHE-ECDSA-AES128-SHA
+  STRING: ECDHE-ECDSA-AES128-SHA256
+  STRING: ECDHE-ECDSA-AES256-GCM-SHA384
+  STRING: ECDHE-ECDSA-AES256-SHA
+  STRING: ECDHE-ECDSA-AES256-SHA384
+  STRING: ECDHE-RSA-AES128-GCM-SHA256
+  STRING: ECDHE-RSA-AES128-SHA
+  STRING: ECDHE-RSA-AES128-SHA256
+  STRING: ECDHE-RSA-AES256-GCM-SHA384
+  STRING: ECDHE-RSA-AES256-SHA
+  STRING: ECDHE-RSA-AES256-SHA384
+  STRING: ECDH-RSA-AES128-GCM-SHA256
+  STRING: ECDH-RSA-AES128-SHA
+  STRING: ECDH-RSA-AES128-SHA256
+  STRING: ECDH-RSA-AES256-GCM-SHA384
+  STRING: ECDH-RSA-AES256-SHA
+  STRING: ECDH-RSA-AES256-SHA384
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: id-aes128-GCM
+  STRING: id-aes256-GCM
+  STRING: PSK-AES128-CBC-SHA
+  STRING: PSK-AES256-CBC-SHA
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  (Truncated; more matches exist.)
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\steam_api.dll
+Size: 242824 bytes
+Created: 2026-10-10T17:04:23.5598130+02:00
+Modified: 2025-04-22T16:59:13.1616635+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: D0DBA00B343757DAAF88F8B326B00DD4A5C58711C834EA4A6A2035EF5B3BEB0D
+Signature status: Valid
+Signer: CN=LESTA LLC, O=LESTA LLC, L=Saint Petersburg, S=Saint Petersburg, C=RU
+Certificate issuer: CN=GlobalSign GCC R45 CodeSigning CA 2020, O=GlobalSign nv-sa, C=BE
+Product: Steam Client API
+Description: Steam Client API
+Company: Valve Corporation
+File version: 05.92.36.75
+Product version: 01.00.00.01
+PE architecture: x86
+PE format: PE32
+PE sections: 5
+String indicator matches: 84
+  STRING: &https://www.globalsign.com/repository/0
+  STRING: /0-0+?)?'?%http://crl.globalsign.com/root-r3.crl0G
+  STRING: :0806?4?2?0http://crl.globalsign.com/codesigningrootr45.crl0V
+  STRING: ?!http://ocsp.globalsign.com/rootr30;
+  STRING: ?/http://secure.globalsign.com/cacert/root-r3.crt06
+  STRING: ?:http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  STRING: ?>http://secure.globalsign.com/cacert/gsgccr45codesignca2020.crt0=
+  STRING: ?1http://ocsp.globalsign.com/gsgccr45codesignca20200V
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?-http://ocsp.globalsign.com/codesigningrootr450F
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl.globalsign.com/gsgccr45codesignca2020.crl0
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: LoadLibraryExA
+  STRING: LoadLibraryExW
+  STRING: OpenProcess
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: SteamAPI_ISteamGameServer_SetPasswordProtected
+  STRING: SteamAPI_ISteamHTMLSurface_SetCookie
+  STRING: SteamAPI_ISteamHTTP_CreateCookieContainer
+  STRING: SteamAPI_ISteamHTTP_ReleaseCookieContainer
+  STRING: SteamAPI_ISteamHTTP_SetCookie
+  STRING: SteamAPI_ISteamHTTP_SetHTTPRequestCookieContainer
+  STRING: SteamAPI_ISteamInventory_StartUpdateProperties
+  STRING: SteamAPI_ISteamNetworking_CreateConnectionSocket
+  STRING: SteamAPI_ISteamNetworking_CreateListenSocket
+  STRING: SteamAPI_ISteamNetworking_CreateP2PConnectionSocket
+  STRING: SteamAPI_ISteamNetworking_DestroyListenSocket
+  STRING: SteamAPI_ISteamNetworking_DestroySocket
+  STRING: SteamAPI_ISteamNetworking_GetListenSocketInfo
+  STRING: SteamAPI_ISteamNetworking_GetSocketConnectionType
+  STRING: SteamAPI_ISteamNetworking_GetSocketInfo
+  STRING: SteamAPI_ISteamNetworking_IsDataAvailableOnSocket
+  STRING: SteamAPI_ISteamNetworking_RetrieveDataFromSocket
+  STRING: SteamAPI_ISteamNetworking_SendDataOnSocket
+  STRING: SteamAPI_ISteamNetworkingSockets_AcceptConnection
+  STRING: SteamAPI_ISteamNetworkingSockets_CloseConnection
+  STRING: SteamAPI_ISteamNetworkingSockets_CloseListenSocket
+  STRING: SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress
+  STRING: SteamAPI_ISteamNetworkingSockets_ConnectP2P
+  STRING: SteamAPI_ISteamNetworkingSockets_ConnectP2PCustomSignaling
+  STRING: SteamAPI_ISteamNetworkingSockets_ConnectToHostedDedicatedServer
+  STRING: SteamAPI_ISteamNetworkingSockets_CreateHostedDedicatedServerListenSocket
+  STRING: SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP
+  STRING: SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P
+  STRING: SteamAPI_ISteamNetworkingSockets_CreatePollGroup
+  STRING: SteamAPI_ISteamNetworkingSockets_CreateSocketPair
+  STRING: SteamAPI_ISteamNetworkingSockets_DestroyPollGroup
+  STRING: SteamAPI_ISteamNetworkingSockets_FindRelayAuthTicketForServer
+  STRING: SteamAPI_ISteamNetworkingSockets_FlushMessagesOnConnection
+  STRING: SteamAPI_ISteamNetworkingSockets_GetAuthenticationStatus
+  STRING: SteamAPI_ISteamNetworkingSockets_GetCertificateRequest
+  STRING: SteamAPI_ISteamNetworkingSockets_GetConnectionInfo
+  STRING: SteamAPI_ISteamNetworkingSockets_GetConnectionName
+  STRING: SteamAPI_ISteamNetworkingSockets_GetConnectionUserData
+  STRING: SteamAPI_ISteamNetworkingSockets_GetDetailedConnectionStatus
+  STRING: SteamAPI_ISteamNetworkingSockets_GetGameCoordinatorServerLogin
+  STRING: SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerAddress
+  STRING: SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPOPID
+  STRING: SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPort
+  STRING: SteamAPI_ISteamNetworkingSockets_GetIdentity
+  STRING: SteamAPI_ISteamNetworkingSockets_GetListenSocketAddress
+  STRING: SteamAPI_ISteamNetworkingSockets_GetQuickConnectionStatus
+  STRING: SteamAPI_ISteamNetworkingSockets_InitAuthentication
+  STRING: SteamAPI_ISteamNetworkingSockets_ReceivedP2PCustomSignal
+  STRING: SteamAPI_ISteamNetworkingSockets_ReceivedRelayAuthTicket
+  STRING: SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection
+  STRING: SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup
+  STRING: SteamAPI_ISteamNetworkingSockets_SendMessages
+  STRING: SteamAPI_ISteamNetworkingSockets_SendMessageToConnection
+  STRING: SteamAPI_ISteamNetworkingSockets_SetCertificate
+  STRING: SteamAPI_ISteamNetworkingSockets_SetConnectionName
+  STRING: SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup
+  STRING: SteamAPI_ISteamNetworkingSockets_SetConnectionUserData
+  STRING: SteamAPI_SteamGameServerNetworkingSockets_v008
+  STRING: SteamAPI_SteamNetworkingSockets_v008
+  STRING: SteamNetworkingSockets008
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\ucrtbase.dll
+Size: 1134616 bytes
+Created: 2026-10-10T17:04:23.5628180+02:00
+Modified: 2025-06-29T19:00:43.9290778+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: 919E404C01F7BA45283101B09A957C4803F3CA53AED081ADFA00CE1AE14FDAEA
+Signature status: Valid
+Signer: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Windows® Operating System
+Description: Microsoft® C Runtime Library
+Company: Microsoft Corporation
+File version: 10.0.22621.3233 (WinBuild.160101.0800)
+Product version: 10.0.22621.3233
+PE architecture: x64
+PE format: PE32+
+PE sections: 6
+String indicator matches: 29
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: ?Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  STRING: cmd.exe
+  STRING: GetProcAddress
+  STRING: GetStartupInfoW
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: http://www.digicert.com/CPS0
+  STRING: LoadLibraryExW
+  STRING: not a socket
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: s?"? http://www.microsoft.com/windows0
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+  STRING: X0V0T?R?P?Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\vccorlib140.dll
+Size: 267592 bytes
+Created: 2026-10-10T17:04:23.5728326+02:00
+Modified: 2016-06-09T21:46:52.0000000+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: F3BCC4A3AE6CD03E08EC48411B6927A0A163AF6F92384279C1DD7AFCB7F52293
+Signature status: Valid
+Signer: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® Visual Studio® 2015
+Description: Microsoft ® VC WinRT core library
+Company: Microsoft Corporation
+File version: 14.00.24210.0 built by: VCTOOLSREL
+Product version: 14.00.24210.0
+PE architecture: x86
+PE format: PE32
+PE sections: 6
+String indicator matches: 22
+  STRING: ?<http://www.microsoft.com/pki/certs/MicrosoftTimeStampPCA.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicCodSigPCA_08-31-2010.crt0
+  STRING: ?>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0??
+  STRING: ?>http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0
+  STRING: ?8http://www.microsoft.com/pki/certs/MicrosoftRootCert.crt0
+  STRING: ?Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0??
+  STRING: ?Ehttp://www.microsoft.com/pkiops/certs/MicCodSigPCA2011_2011-07-08.crt0
+  STRING: ?EventSourceAdd@Details@Platform@@YG?AVEventRegistrationToken@Foundation@Windows@@PAPAXPAUEventLock@12@P$AAVDelegate@2@@Z
+  STRING: ?EventSourceRemove@Details@Platform@@YGXPAPAXPAUEventLock@12@VEventRegistrationToken@Foundation@Windows@@@Z
+  STRING: 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  STRING: 3http://www.microsoft.com/pkiops/docs/primarycps.htm0@
+  STRING: CoGetContextToken
+  STRING: GetProcAddress
+  STRING: http://microsoft.com0
+  STRING: I0G0E?C?A??http://crl.microsoft.com/pki/crl/products/microsoftrootcert.crl0T
+  STRING: LoadLibraryExW
+  STRING: M0K0I?G?E?Chttp://crl.microsoft.com/pki/crl/products/MicrosoftTimeStampPCA.crl0X
+  STRING: M0K0I?G?E?Chttp://www.microsoft.com/pkiops/crl/MicCodSigPCA2011_2011-07-08.crl0a
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_08-31-2010.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  STRING: O0M0K?I?G?Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z
+  STRING: S0Q0O?M?K?Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^
+
+FILE: C:\Users\wiiff\Downloads\Anvil Setup\Anvil Setup\settings\XAudio2_7.dll
+Size: 529160 bytes
+Created: 2026-10-10T17:04:23.5758371+02:00
+Modified: 2025-06-29T19:00:43.9320769+02:00
+Extension: .dll
+Attributes: Archive
+SHA256: DBC5F74E4CD638E2C6F7C7DBB9F4B67E90F9B9472D61B6B0D3AF9C504A952E48
+Signature status: Valid
+Signer: CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Certificate issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Product: Microsoft® DirectX for Windows®
+Description: XAudio2 Game Audio API
+Company: Microsoft Corporation
+File version: 9.29 (DXSDK_JUN10.100602-0421)
+Product version: 9.29.1962.0
+PE architecture: x64
+PE format: PE32+
+PE sections: 6
+String indicator matches: 21
+  STRING: ?,http://www.microsoft.com/pki/certs/CSPCA.crt0
+  STRING: ?,http://www.microsoft.com/pki/certs/tspca.crt0
+  STRING: ??0??0S?Q?O?Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S?Q?O?Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0??
+  STRING: ?5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  STRING: ?7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  STRING: ?Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  STRING: ?Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  STRING: <0:08?6?4?2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  STRING: =0;09?7?5?3http://crl.microsoft.com/pki/crl/products/CSPCA.crl0H
+  STRING: =0;09?7?5?3http://crl.microsoft.com/pki/crl/products/tspca.crl0H
+  STRING: >0<0:?8?6?4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  STRING: GetProcAddress
+  STRING: http://ocsp.digicert.com0\
+  STRING: http://ocsp.digicert.com0A
+  STRING: http://ocsp.digicert.com0C
+  STRING: http://ocsp.digicert.com0X
+  STRING: http://www.digicert.com/CPS0
+  STRING: K?"? http://www.microsoft.com/DirectX0
+  STRING: LoadLibraryA
+  STRING: S0Q0O?M?K?Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0??
+
+========== RECENT DEFENDER DETECTIONS ==========
+No detections returned by this query.
+
